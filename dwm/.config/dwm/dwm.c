@@ -1679,8 +1679,7 @@ tag(const Arg *arg)
 		selmon->sel->tags = arg->ui & TAGMASK;
 		focus(NULL);
 		arrange(selmon);
-	}
-}
+	} }
 
 void
 tagmon(const Arg *arg)
@@ -2210,8 +2209,8 @@ centeredmaster(Monitor *m)
 	ety = 0;
 	for (i = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), i++)
 	if (i < m->nmaster) {
-		/* nmaster clients are stacked vertically, in the center
-		 * of the screen */
+		// nmaster clients are stacked vertically, in the center
+		// of the screen 
 		h = (m->wh - my) / (MIN(n, m->nmaster) - i);
 		resize(c, m->wx + mx, m->wy + my, mw - (2*c->bw),
 		       h - (2*c->bw), 0);

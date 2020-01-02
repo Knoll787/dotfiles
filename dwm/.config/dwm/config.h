@@ -38,8 +38,8 @@ static const int resizehints = 1;    /* 1 means respect size hints in tiled resi
 #include "fibonacci.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[T]",      tile },    /* first entry is default */
   { "[S]",      spiral },
+	{ "[T]",      tile },    /* first entry is default */
   { "|M|",      centeredmaster },
   { "[D]",      dwindle },
 	{ "[F]",      NULL },    /* no layout function means floating behavior */
@@ -81,6 +81,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+  { MODKEY,                       XK_u,      setlayout,      {.v = &layouts[3]} },
+	{ MODKEY,                       XK_o,      setlayout,      {.v = &layouts[4]} },
   { MODKEY|ControlMask,		        XK_j,      cyclelayout,    {.i = -1 } },
   { MODKEY|ControlMask,           XK_k,      cyclelayout,    {.i = +1 } },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
