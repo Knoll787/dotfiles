@@ -40,7 +40,7 @@ static const Layout layouts[] = {
 	/* symbol     arrange function */
   { "[S]",      spiral },
 	{ "[T]",      tile },    /* first entry is default */
-  { "|M|",      centeredmaster },
+  { "[M]",      centeredmaster },
   { "[D]",      dwindle },
 	{ "[F]",      NULL },    /* no layout function means floating behavior */
 	{ "[0]",      monocle },
@@ -75,7 +75,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
   { MODKEY,                       XK_s,      togglesticky,   {0} },
-	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
+	{ MODKEY|ControlMask,             XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
