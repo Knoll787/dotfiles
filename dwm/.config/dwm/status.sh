@@ -20,8 +20,15 @@ cpu(){
   echo -e "💻 $cpu% cpu"
 }
 
+weather=$(curl -s "wttr.in/Branxton?format=4")
+
+output(){
+  opt="| $weather | $(cpu) | $(mem) | $(dte) |"
+  echo -e "$opt"
+}
+
 while true; do
-     xsetroot -name "$(cpu) | $(mem) | $(dte) "
-     sleep 1m 
+  xsetroot -name "$(output)" 
+  sleep 1s 
 done &
 
