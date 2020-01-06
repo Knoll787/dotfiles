@@ -1,6 +1,6 @@
 set nocompatible
 filetype off 
-set rtp+=~/.config/nvim/bundle/Vundle.vim
+set rtp+=~/.config/nvim/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
@@ -61,5 +61,6 @@ inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
 map <F9> :w<CR>:!python %<CR>
+map <F10> :w<CR>:!pdflatex %<CR>
 map <F12> <ESC>:w!<CR>
 
