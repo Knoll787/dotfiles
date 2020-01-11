@@ -20,10 +20,13 @@ cpu(){
   echo -e "💻 $cpu% cpu"
 }
 
-weather=$(curl -s "wttr.in/Branxton?format=4")
+#weather=$(curl -s "wttr.in/Branxton?format=4")
+#if [[$weather =~ "Sorry" ]] then
+#  weather=""
+#fi
 
 output(){
-  opt="| $weather | $(cpu) | $(mem) | $(dte) |"
+  opt="| $(cpu) | $(mem) | $(dte) |"
   echo -e "$opt"
 }
 
