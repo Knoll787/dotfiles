@@ -38,6 +38,6 @@ output(){
 
 while true; do
   xsetroot -name "$(output)" 
-  sleep 1s 
+  sleep 1m 
 done &
 
