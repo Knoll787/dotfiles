@@ -20,13 +20,19 @@ cpu(){
   echo -e "💻 $cpu% cpu"
 }
 
+sound(){
+  level="$(awk -F"[][]" '/dB/ { print $2 }' <(amixer sget Master))"
+  echo -e "🔉 $level"
+  
+}
+
 #weather=$(curl -s "wttr.in/Branxton?format=4")
 #if [[$weather =~ "Sorry" ]] then
 #  weather=""
 #fi
 
 output(){
-  opt="| $(cpu) | $(mem) | $(dte) |"
+  opt="| $(cpu) | $(mem) | $(sound) | $(dte) |"
   echo -e "$opt"
 }
 
