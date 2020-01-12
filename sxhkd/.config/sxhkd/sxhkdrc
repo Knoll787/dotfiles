@@ -1,2 +1,13 @@
-super + a ; {i}
-	{google-chrome}
+# Quicklaunch applications
+super + o ; {i,j}
+	{google-chrome-stable, joplin}
+
+# Audiokeys
+XF86AudioMute
+	amixer sset Master toggle
+XF86Audio{Raise,Lower}Volume
+	amixer sset Master 4%{+,-}
+XF86Audio{Next,Prev}
+	mpc {next,prev}
+XF86Audio{Pause,Play,Stop}
+	mpc {pause,play,stop}
