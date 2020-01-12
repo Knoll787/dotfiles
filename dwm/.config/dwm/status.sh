@@ -2,7 +2,7 @@
 
 dte(){
   dte="$(date +"%A, %B %d | 🕒 %l:%M%p")"
-  echo -e "$dte"
+  echo -e "🗓 $dte"
 }
 
 mem(){
