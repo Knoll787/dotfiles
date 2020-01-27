@@ -1,6 +1,6 @@
 # Quicklaunch applications
 super + o ; {i,j}
-	{google-chrome-stable, joplin}
+	{brave, joplin}
 
 # Audiokeys
 XF86AudioMute
