@@ -8,6 +8,9 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'dracula/vim'
+Plugin 'vimwiki/vimwiki'
+Plugin 'vim-pandoc/vim-pandoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax'
 
 call vundle#end()
 
@@ -37,12 +40,15 @@ function! s:goyo_enter()
   set number
   Goyo 100x110%
 endfunction
-
 function! s:goyo_leave()
 endfunction
 map \g :Goyo<Cr>
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+"Markdown for Vimwiki
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 
 "Key Mappings/Commands
