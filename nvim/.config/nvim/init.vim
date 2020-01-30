@@ -53,7 +53,7 @@ inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 
 inoremap " ""<left>
-inoremap ' ''<left>
+"inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
