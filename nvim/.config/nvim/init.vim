@@ -16,14 +16,14 @@ call vundle#end()
 
 filetype plugin indent on
 
-"Color Theme
+""Color Theme
 set t_Co=256
 set termguicolors
 colorscheme dracula 
 set laststatus=2
 
 
-"General System Settings
+""General System Settings
 set number
 syntax on  
 set expandtab
@@ -35,7 +35,7 @@ set showmatch
 set wildmode=longest:full,full
 
 
-"Goyo
+""Goyo
 function! s:goyo_enter()
   set number
   Goyo 100x110%
@@ -46,12 +46,12 @@ map \g :Goyo<Cr>
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
-"Markdown for Vimwiki
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+""Vimwiki
+let g:vimwiki_list = [{'path': '~/documents/notes/'}]
+map <F11> :w<CR>:VimwikiAll2HTML<Cr>
 
 
-"Key Mappings/Commands
+""Key Mappings/Commands
 inoremap jj <ESC>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
