@@ -1,20 +1,20 @@
 set nocompatible
 filetype off 
-set rtp+=~/.config/nvim/.vim/bundle/Vundle.vim
-call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'junegunn/goyo.vim'
-Plugin 'dracula/vim'
-Plugin 'vimwiki/vimwiki'
-Plugin 'vim-pandoc/vim-pandoc'
-Plugin 'vim-pandoc/vim-pandoc-syntax'
+""Plugins
+call plug#begin()
 
-call vundle#end()
+Plug 'VundleVim/Vundle.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'dracula/vim'
+Plug 'vimwiki/vimwiki'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 
-filetype plugin indent on
+call plug#end()
+
 
 ""Color Theme
 set t_Co=256
@@ -25,7 +25,6 @@ set laststatus=2
 
 ""General System Settings
 set number
-syntax on  
 set expandtab
 set tabstop=2
 set softtabstop=2
