@@ -1,6 +1,6 @@
 # Quicklaunch applications
 super + o ; {i,j}
-	{brave, joplin}
+	{brave, zathura}
 
 # Audiokeys
 XF86AudioMute
