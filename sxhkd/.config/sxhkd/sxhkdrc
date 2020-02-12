@@ -1,5 +1,5 @@
 # Quicklaunch applications
-super + o ; {i,j}
+super + o ; {i,z}
 	{brave, zathura}
 
 # Audiokeys
