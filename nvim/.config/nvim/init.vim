@@ -68,6 +68,7 @@ let s:makeprg_for_filetype = {
       \ "tex"      : "pdflatex -file-line-error -interaction=nonstopmode % && zathura %<.pdf",
       \ "xhtml"    : "tidy -asxhtml -quiet -errors --gnu-emacs yes %:S; brave % &",
       \ "wiki"     : "VimwikiAll2HTML",
+      \ "java"     : "java %",
       \}
 
 let &shellpipe="2> >(tee %s)"
