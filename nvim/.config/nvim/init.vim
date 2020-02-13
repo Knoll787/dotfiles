@@ -25,6 +25,7 @@ set laststatus=2
 
 ""General System Settings
 set number
+set textwidth=100
 set expandtab
 set tabstop=2
 set softtabstop=2
@@ -111,11 +112,9 @@ inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 
 inoremap " ""<left>
-"inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
 

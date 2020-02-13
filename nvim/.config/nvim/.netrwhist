@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/nwoods/dotfiles/.vim/.vim/bundle/goyo.vim/autoload'
+let g:netrw_dirhist_2='/home/nwoods/dotfiles/.vim/.vim/bundle/goyo.vim'
 let g:netrw_dirhist_1='/home/nwoods/.config/nvim'
 let g:netrw_dirhist_0='/home/nwoods/.vim/bundle/vimwiki/autoload/vimwiki'
 let g:netrw_dirhist_9='/home/nwoods/git/joplin/readme/welcome'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_7='/home/nwoods/dotfiles/sxhkd/.config/sxhkd'
 let g:netrw_dirhist_6='/home/nwoods/dotfiles/sxhkd/.config'
 let g:netrw_dirhist_5='/home/nwoods/.config/sxhkd'
 let g:netrw_dirhist_4='/home/nwoods/.config/dwm'
-let g:netrw_dirhist_3='/home/nwoods/dotfiles/dwm/.config/dwm'
-let g:netrw_dirhist_2='/home/nwoods/.config/dwm'
