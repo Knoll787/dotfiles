@@ -45,7 +45,6 @@ let s:compiler_for_filetype = {
       \ "plaintex" : "tex",
       \ "python"   : "pyunit",
       \ "tex"      : "tex",
-      \ "wiki"     : "wiki",
       \}
 
 let s:makeprg_for_filetype = {
@@ -67,7 +66,6 @@ let s:makeprg_for_filetype = {
       \ "sh"       : "chmod +x %:p && %:p",
       \ "tex"      : "pdflatex -file-line-error -interaction=nonstopmode % && zathura %<.pdf",
       \ "xhtml"    : "tidy -asxhtml -quiet -errors --gnu-emacs yes %:S; brave % &",
-      \ "wiki"     : "VimwikiAll2HTML",
       \ "java"     : "java %",
       \}
 
@@ -87,7 +85,7 @@ endfunction
 
 nnoremap <F9> :call CompileAndRun()<CR>
 map <F10> <ESC>:w!<CR>
-map <F11> :w<CR>:VimwikiAll2HTML<Cr>
+"map <F11> :w<CR>:VimwikiAll2HTML<Cr>
 
 
 ""Goyo
