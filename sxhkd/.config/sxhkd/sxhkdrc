@@ -1,6 +1,12 @@
 # Quicklaunch applications
-super + o ; {i,z}
-	{brave, zathura}
+super + o; {i,z}
+	{brave, zathura} 
+
+super + o; {m} 
+ {brave www.gmail.com}
+ 
+super + o; {t} 
+  {brave https://bit.ly/2P9BAEL}
 
 # Audiokeys
 XF86AudioMute
