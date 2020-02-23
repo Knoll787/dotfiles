@@ -8,6 +8,9 @@ super + o; {m}
 super + o; {t} 
   {brave https://bit.ly/2P9BAEL}
 
+super + o; {c}
+  {brave https://calendar.google.com/calendar/r}
+
 # Audiokeys
 XF86AudioMute
 	amixer sset Master toggle
