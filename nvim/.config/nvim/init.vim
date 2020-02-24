@@ -50,8 +50,8 @@ let s:compiler_for_filetype = {
 let s:makeprg_for_filetype = {
       \ "asm"      : "as -o %<.o % && ld -s -o %< %<.o && rm %<.o && ./%<",
       \ "basic"    : "vintbas %",
-      \ "c"        : "gcc -std=gnu11 -g % -o %< && ./%<",
-      \ "cpp"      : "g++ -std=gnu++11 -g % -o %< && ./%<",
+      \ "c"        : "gcc -std=gnu11 -g % -o %<",
+      \ "cpp"      : "g++ -std=gnu++11 -g % -o %<",
       \ "go"       : "go build && ./%<",
       \ "haskell"  : "ghc -o %< %; rm %<.hi %<.o && ./%<",
       \ "html"     : "tidy -quiet -errors --gnu-emacs yes %:S; firefox -new-window % &",
@@ -85,7 +85,7 @@ endfunction
 
 nnoremap <F9> :call CompileAndRun()<CR>
 map <F10> <ESC>:w!<CR>
-"map <F11> :w<CR>:VimwikiAll2HTML<Cr>
+map <F11> :w<CR>:VimwikiAll2HTML<Cr>
 
 
 ""Goyo
@@ -100,7 +100,7 @@ autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 ""Vimwiki
-let g:vimwiki_list = [{'path': '~/documents/notes/'}]
+let g:vimwiki_list = [{'path': '~/documents/notes/notes/'}]
 
 
 ""Key Mappings/Commands
