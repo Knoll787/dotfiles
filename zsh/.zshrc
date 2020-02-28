@@ -6,3 +6,6 @@ PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%B%~%b%f %# '
 
 export TERM=xterm-256color
 cd ~/
+
+#Aliases
+alias shutdown='shutdown -h now'
