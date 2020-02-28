@@ -17,7 +17,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
 
 
-""Color Theme
+""Colour Theme
 set t_Co=256
 set termguicolors
 colorscheme dracula 
@@ -26,7 +26,7 @@ set laststatus=2
 ""General System Settings
 set number
 set textwidth=100
-setlocal spell spelllang-en_au
+setlocal spell spelllang=en_au
 set expandtab
 set tabstop=2
 set softtabstop=2
