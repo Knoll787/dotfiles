@@ -9,3 +9,4 @@ cd ~/
 
 #Aliases
 alias shutdown='shutdown -h now'
+alias notes='brave ~/documents/notes/notes_html/index.html'
