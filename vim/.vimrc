@@ -26,6 +26,7 @@ set laststatus=2
 ""General System Settings
 set number
 set textwidth=100
+setlocal spell spelllang-en_au
 set expandtab
 set tabstop=2
 set softtabstop=2
