@@ -26,6 +26,7 @@ sound(){
   
 }
 
+
 #weather=$(curl -s "wttr.in/Branxton?format=4")
 #if [[$weather =~ "Sorry" ]] then
 #  weather=""
