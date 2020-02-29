@@ -104,7 +104,7 @@ autocmd! User GoyoLeave nested call <SID>goyo_leave()
 let g:vimwiki_list = [{'path': '~/documents/notes/notes/'}]
 let g:vimwiki_list = [{
   \ 'path': '$HOME/documents/notes/notes/',
-  \ 'template_path': '$HOME/.vim/bundle/vimwiki/autoload/vimwiki/',
+  \ 'template_path': '$HOME/.vim/plugged/vimwiki/autoload/vimwiki/',
   \ 'template_default': 'default',
   \ 'template_ext': '.tpl'}]
 
