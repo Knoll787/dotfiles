@@ -27,6 +27,7 @@ set laststatus=2
 set number
 set textwidth=100
 set spell spelllang=en_au
+set spellfile=~/.vim/spell.en.utf-8.add
 set expandtab
 set tabstop=2
 set softtabstop=2

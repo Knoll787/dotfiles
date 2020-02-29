@@ -5,21 +5,91 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=latin1
 
 
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/TERM
+~MSle0~/bundle
 
 # Command Line History (newest to oldest):
+:VimwikiTable
+|2,0,1582989011,,"VimwikiTable"
+:gqq
+|2,0,1582988929,,"gqq"
+:q
+|2,0,1582916720,,"q"
+:3
+|2,0,1582898121,,"3"
+:set spell spelllang=en_au
+|2,0,1582897198,,"set spell spelllang=en_au"
+:q!
+|2,0,1582855002,,"q!"
+:!git add 'Lecture 1.wiki'
+|2,0,1582841909,,"!git add 'Lecture 1.wiki'"
+:!git add 'Lecture 1.wiki"
+|2,0,1582841897,,"!git add 'Lecture 1.wiki\""
+:!git add Lecture 1.wiki
+|2,0,1582841847,,"!git add Lecture 1.wiki"
+:!./main test
+|2,0,1582782120,,"!./main test"
+:!./main jlkafj;daklf
+|2,0,1582782103,,"!./main jlkafj;daklf"
+:!./main yolo
+|2,0,1582782085,,"!./main yolo"
+:./main
+|2,0,1582782073,,"./main"
+:!./% test
+|2,0,1582781845,,"!./% test"
+:./% test
+|2,0,1582781836,,"./% test"
+:x!
+|2,0,1582761899,,"x!"
+:23
+|2,0,1582761854,,"23"
+:PlugInstall
+|2,0,1582760928,,"PlugInstall"
 :colorscheme dracula
 |2,0,1582528992,,"colorscheme dracula"
-:PlugInstall
-|2,0,1582528144,,"PlugInstall"
 
 # Search String History (newest to oldest):
+?/bundle
+|2,1,1582995589,47,"bundle"
+? \<that\>
+|2,1,1582990106,,"\\<that\\>"
+?/(
+|2,1,1582853599,47,"("
+?/Hel
+|2,1,1582853265,47,"Hel"
+?/O
+|2,1,1582843268,47,"O"
+?/Source Pr
+|2,1,1582842610,47,"Source Pr"
+?/byte
+|2,1,1582842593,47,"byte"
+?/bytpe-code
+|2,1,1582842591,47,"bytpe-code"
+?/follow
+|2,1,1582841116,47,"follow"
+?/follpw
+|2,1,1582841114,47,"follpw"
+?/follwoing
+|2,1,1582841106,47,"follwoing"
+?/pei
+|2,1,1582840085,47,"pei"
+?/When
+|2,1,1582840044,47,"When"
+?/running
+|2,1,1582839997,47,"running"
+? \<of\>
+|2,1,1582839887,,"\\<of\\>"
+? main
+|2,1,1582782073,,"main"
+? % test
+|2,1,1582781836,,"% test"
+?/font
+|2,1,1582761601,47,"font"
 ?/TERM
 |2,1,1582529370,47,"TERM"
 ?/termname
@@ -32,297 +102,284 @@
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@
+|2,3,1582855114,,""
 
 # Debug Line History (newest to oldest):
 
 # Registers:
 "0	CHAR	0
-	plug
-|3,0,0,0,1,0,1582527641,"plug"
+	g
+|3,0,0,0,1,0,1582993913,"g"
 "1	LINE	0
-	endif
-|3,0,1,1,1,0,1582529366,"endif"
+	  \ 'template_path': '$HOME/.vim/bundle/vimwiki/autoload/vimwiki/',
+|3,0,1,1,1,0,1582995585,"  \\ 'template_path': '$HOME/.vim/bundle/vimwiki/autoload/vimwiki/',"
 "2	LINE	0
-	  set t_ut=
-|3,0,2,1,1,0,1582529365,"  set t_ut="
+	   negative because you learn less information, 
+|3,0,2,1,1,0,1582993378,"   negative because you learn less information, "
 "3	LINE	0
-	if &term =~ '256color'
-|3,0,3,1,1,0,1582529365,"if &term =~ '256color'"
-"4	LINE	0
-	      "             endif"")"
-|3,0,4,1,1,0,1582529307,"      \"             endif\"\")\""
+	  Testing does this work
+|3,0,3,1,1,0,1582991282,"  Testing does this work"
+"4	CHAR	0
+	that were better able to solve problems formed. The field
+	  of computing went from generalisations to specialisation 
+	  
+	== What is Ethics? ==
+	
+	- Ethics are a set of beliefs about right and wrong behaviour within a society
+	- Morality/Morals are personal conventions about right and wrong
+|3,0,4,0,7,0,1582990106,"that were better able to solve problems formed. The field","  of computing went from generalisations to specialisation ","  ","== What is Ethics? ==","","- Ethics are a set of beliefs about right and wrong behaviour within a society","- Morality/Morals are personal conventions about right and wrong"
 "5	LINE	0
-	      "             set t_ut=
-|3,0,5,1,1,0,1582529306,"      \"             set t_ut="
+	| Non-for-profit visibility          |                                    |
+|3,0,5,1,1,0,1582990008,"| Non-for-profit visibility          |                                    |"
 "6	LINE	0
-	      "         " see also http://sunaku.github.io/vim-256color-bce.html
-|3,0,6,1,1,0,1582529306,"      \"         \" see also http://sunaku.github.io/vim-256color-bce.html"
+	|                                    |                                    |
+|3,0,6,1,1,0,1582989988,"|                                    |                                    |"
 "7	LINE	0
-	      "     " render properly when inside 256-color tmux and GNU screen.
-|3,0,7,1,1,0,1582529306,"      \"     \" render properly when inside 256-color tmux and GNU screen."
+	
+|3,0,7,1,1,0,1582989343,""
 "8	LINE	0
-	      " disable Background Color Erase (BCE) so that color schemes
-|3,0,8,1,1,0,1582529305,"      \" disable Background Color Erase (BCE) so that color schemes"
+	|-----------|-----------|---|---|---|
+	|           |           |   |   |   |
+|3,0,8,1,2,0,1582989035,"|-----------|-----------|---|---|---|","|           |           |   |   |   |"
 "9	LINE	0
-	syntax on
-|3,0,9,1,1,0,1582529092,"syntax on"
+	  | Positives                           | Negatives |
+|3,0,9,1,1,0,1582989006,"  | Positives                           | Negatives |"
 ""-	CHAR	0
-	$
-|3,1,36,0,1,0,1582529631,"$"
+	bundle
+|3,1,36,0,1,0,1582995589,"bundle"
 
 # File marks:
-'0  9  37  ~/documents/notes/notes/Course Overview.wiki
-|4,48,9,37,1582529704,"~/documents/notes/notes/Course Overview.wiki"
-'1  116  15  ~/.vimrc
-|4,49,116,15,1582529687,"~/.vimrc"
-'2  6  53  ~/documents/notes/notes/Course Overview.wiki
-|4,50,6,53,1582529658,"~/documents/notes/notes/Course Overview.wiki"
-'3  6  53  ~/documents/notes/notes/Course Overview.wiki
-|4,51,6,53,1582529658,"~/documents/notes/notes/Course Overview.wiki"
-'4  24  0  ~/.vimrc
-|4,52,24,0,1582529527,"~/.vimrc"
-'5  24  0  ~/.vimrc
-|4,53,24,0,1582529527,"~/.vimrc"
-'6  82  25  ~/dotfiles/st/.config/st/config.h
-|4,54,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
-'7  25  0  ~/.vimrc
-|4,55,25,0,1582529366,"~/.vimrc"
-'8  25  0  ~/.vimrc
-|4,56,25,0,1582529366,"~/.vimrc"
-'9  25  0  ~/.vimrc
-|4,57,25,0,1582529366,"~/.vimrc"
+'0  108  39  ~/.vimrc
+|4,48,108,39,1582995591,"~/.vimrc"
+'1  1  0  ~/documents/notes/notes/index.wiki
+|4,49,1,0,1582994398,"~/documents/notes/notes/index.wiki"
+'2  25  36  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,50,25,36,1582994195,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+'3  1  0  ~/documents/notes/notes/index.wiki
+|4,51,1,0,1582994014,"~/documents/notes/notes/index.wiki"
+'4  1  0  ~/documents/notes/notes/index.wiki
+|4,52,1,0,1582994014,"~/documents/notes/notes/index.wiki"
+'5  1  0  ~/documents/notes/notes/index.wiki
+|4,53,1,0,1582994014,"~/documents/notes/notes/index.wiki"
+'6  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,54,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+'7  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,55,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+'8  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,56,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+'9  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,57,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
 
 # Jumplist (newest first):
--'  9  37  ~/documents/notes/notes/Course Overview.wiki
-|4,39,9,37,1582529704,"~/documents/notes/notes/Course Overview.wiki"
--'  3  0  ~/documents/notes/notes/ENGG1003.wiki
-|4,39,3,0,1582529698,"~/documents/notes/notes/ENGG1003.wiki"
--'  8  2  ~/documents/notes/notes/index.wiki
-|4,39,8,2,1582529696,"~/documents/notes/notes/index.wiki"
--'  7  2  ~/documents/notes/notes/index.wiki
-|4,39,7,2,1582529696,"~/documents/notes/notes/index.wiki"
--'  6  2  ~/documents/notes/notes/index.wiki
-|4,39,6,2,1582529696,"~/documents/notes/notes/index.wiki"
--'  5  2  ~/documents/notes/notes/index.wiki
-|4,39,5,2,1582529696,"~/documents/notes/notes/index.wiki"
--'  1  0  ~/documents/notes/notes/MATH1110.wiki
-|4,39,1,0,1582529695,"~/documents/notes/notes/MATH1110.wiki"
+-'  108  39  ~/.vimrc
+|4,39,108,39,1582995591,"~/.vimrc"
+-'  109  4  ~/.vimrc
+|4,39,109,4,1582995586,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1582995579,"~/.vimrc"
 -'  1  0  ~/documents/notes/notes/index.wiki
-|4,39,1,0,1582529693,"~/documents/notes/notes/index.wiki"
--'  116  15  ~/.vimrc
-|4,39,116,15,1582529687,"~/.vimrc"
--'  116  15  ~/.vimrc
-|4,39,116,15,1582529687,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1582529661,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1582529661,"~/.vimrc"
--'  6  53  ~/documents/notes/notes/Course Overview.wiki
-|4,39,6,53,1582529658,"~/documents/notes/notes/Course Overview.wiki"
--'  6  53  ~/documents/notes/notes/Course Overview.wiki
-|4,39,6,53,1582529658,"~/documents/notes/notes/Course Overview.wiki"
--'  6  53  ~/documents/notes/notes/Course Overview.wiki
-|4,39,6,53,1582529658,"~/documents/notes/notes/Course Overview.wiki"
--'  1  0  ~/documents/notes/notes/ENGG1003.wiki
-|4,39,1,0,1582529551,"~/documents/notes/notes/ENGG1003.wiki"
--'  3  0  ~/documents/notes/notes/ENGG1003.wiki
-|4,39,3,0,1582529551,"~/documents/notes/notes/ENGG1003.wiki"
--'  1  0  ~/documents/notes/notes/ENGG1003.wiki
-|4,39,1,0,1582529551,"~/documents/notes/notes/ENGG1003.wiki"
--'  3  0  ~/documents/notes/notes/ENGG1003.wiki
-|4,39,3,0,1582529551,"~/documents/notes/notes/ENGG1003.wiki"
--'  1  0  ~/documents/notes/notes/ENGG1003.wiki
-|4,39,1,0,1582529551,"~/documents/notes/notes/ENGG1003.wiki"
--'  8  2  ~/documents/notes/notes/index.wiki
-|4,39,8,2,1582529550,"~/documents/notes/notes/index.wiki"
--'  8  2  ~/documents/notes/notes/index.wiki
-|4,39,8,2,1582529550,"~/documents/notes/notes/index.wiki"
--'  4  1  ~/documents/notes/notes/MATH1110.wiki
-|4,39,4,1,1582529548,"~/documents/notes/notes/MATH1110.wiki"
--'  4  1  ~/documents/notes/notes/MATH1110.wiki
-|4,39,4,1,1582529548,"~/documents/notes/notes/MATH1110.wiki"
--'  4  1  ~/documents/notes/notes/MATH1110.wiki
-|4,39,4,1,1582529548,"~/documents/notes/notes/MATH1110.wiki"
--'  5  2  ~/documents/notes/notes/index.wiki
-|4,39,5,2,1582529532,"~/documents/notes/notes/index.wiki"
--'  5  2  ~/documents/notes/notes/index.wiki
-|4,39,5,2,1582529532,"~/documents/notes/notes/index.wiki"
+|4,39,1,0,1582994398,"~/documents/notes/notes/index.wiki"
 -'  1  0  ~/documents/notes/notes/index.wiki
-|4,39,1,0,1582529530,"~/documents/notes/notes/index.wiki"
+|4,39,1,0,1582994398,"~/documents/notes/notes/index.wiki"
+-'  25  36  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,25,36,1582994195,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  25  36  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,25,36,1582994195,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  25  36  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,25,36,1582994195,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  25  36  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,25,36,1582994195,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582994186,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582994186,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582994186,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582994186,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582994185,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  7  0  ~/documents/notes/notes/index.wiki
+|4,39,7,0,1582994185,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582994185,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  7  0  ~/documents/notes/notes/index.wiki
+|4,39,7,0,1582994185,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582994185,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  7  0  ~/documents/notes/notes/index.wiki
+|4,39,7,0,1582994185,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582994185,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  7  0  ~/documents/notes/notes/index.wiki
+|4,39,7,0,1582994185,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582994184,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582994184,"~/documents/notes/notes/index.wiki"
 -'  1  0  ~/documents/notes/notes/index.wiki
-|4,39,1,0,1582529530,"~/documents/notes/notes/index.wiki"
--'  24  0  ~/.vimrc
-|4,39,24,0,1582529527,"~/.vimrc"
--'  24  0  ~/.vimrc
-|4,39,24,0,1582529527,"~/.vimrc"
--'  24  0  ~/.vimrc
-|4,39,24,0,1582529527,"~/.vimrc"
--'  24  0  ~/.vimrc
-|4,39,24,0,1582529527,"~/.vimrc"
--'  24  0  ~/.vimrc
-|4,39,24,0,1582529527,"~/.vimrc"
--'  24  0  ~/.vimrc
-|4,39,24,0,1582529527,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1582529525,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1582529525,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1582529525,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1582529525,"~/.vimrc"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  82  25  ~/dotfiles/st/.config/st/config.h
-|4,39,82,25,1582529412,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
--'  184  3  ~/dotfiles/st/.config/st/config.h
-|4,39,184,3,1582529395,"~/dotfiles/st/.config/st/config.h"
+|4,39,1,0,1582994184,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582994184,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582994184,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582994184,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582994014,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582994014,"~/documents/notes/notes/index.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  83  49  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,83,49,1582994005,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  82  28  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,82,28,1582993955,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,1,0,1582993951,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,4,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,39,1,0,1582993950,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  7  7  ~/documents/notes/notes/index.wiki
+|4,39,7,7,1582993948,"~/documents/notes/notes/index.wiki"
+-'  7  7  ~/documents/notes/notes/index.wiki
+|4,39,7,7,1582993948,"~/documents/notes/notes/index.wiki"
+-'  7  7  ~/documents/notes/notes/index.wiki
+|4,39,7,7,1582993948,"~/documents/notes/notes/index.wiki"
+-'  7  7  ~/documents/notes/notes/index.wiki
+|4,39,7,7,1582993948,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582993942,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582993942,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582993942,"~/documents/notes/notes/index.wiki"
+-'  5  0  ~/documents/notes/notes/index.wiki
+|4,39,5,0,1582993942,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582993941,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582993941,"~/documents/notes/notes/index.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
+-'  69  55  ~/documents/notes/notes/comp1010/Lecture 1.wiki
+|4,39,69,55,1582993938,"~/documents/notes/notes/comp1010/Lecture 1.wiki"
 
 # History of marks within files (newest to oldest):
 
-> ~/documents/notes/notes/Course Overview.wiki
-	*	1582529703	0
-	"	9	37
-	^	6	54
-	.	9	44
-	+	9	42
-	+	10	0
-	+	11	0
-	+	9	44
-
-> ~/documents/notes/notes/ENGG1003.wiki
-	*	1582529698	0
-	"	3	0
-
-> ~/documents/notes/notes/index.wiki
-	*	1582529696	0
-	"	8	2
-
-> ~/documents/notes/notes/MATH1110.wiki
-	*	1582529693	0
-	"	1	0
-
 > ~/.vimrc
-	*	1582529685	0
-	"	116	15
-	^	10	16
-	.	25	0
+	*	1582995591	0
+	"	108	39
+	^	108	40
+	.	108	39
 	+	9	5
 	+	10	5
 	+	11	5
@@ -350,9 +407,554 @@
 	+	25	24
 	+	25	4
 	+	25	0
+	+	29	7
+	+	20	6
+	+	29	3
+	+	30	38
+	+	108	39
+
+> ~/documents/notes/notes/index.wiki
+	*	1582994396	0
+	"	1	0
+	^	1	6
+	.	1	5
+	+	10	0
+	+	5	21
+	+	6	21
+	+	8	20
+	+	10	20
+	+	6	9
+	+	5	0
+	+	6	0
+	+	8	0
+	+	10	0
+	+	7	0
+	+	9	0
+	+	11	0
+	+	1	5
+
+> ~/documents/notes/notes/comp1010/Lecture 1.wiki
+	*	1582994194	0
+	"	25	36
+	^	83	50
+	.	25	36
+	+	47	0
+	+	47	3
+	+	47	0
+	+	47	38
+	+	47	4
+	+	47	0
+	+	48	0
+	+	57	0
+	+	48	0
+	+	57	0
+	+	48	24
+	+	48	0
+	+	50	0
+	+	48	24
+	+	49	24
+	+	50	33
+	+	51	24
+	+	52	18
+	+	53	0
+	+	50	36
+	+	53	0
+	+	53	71
+	+	54	67
+	+	55	54
+	+	56	0
+	+	56	65
+	+	57	0
+	+	56	2
+	+	57	0
+	+	58	0
+	+	35	43
+	+	43	0
+	+	35	73
+	+	41	85
+	+	42	61
+	+	59	4
+	+	59	69
+	+	60	2
+	+	76	2
+	+	60	13
+	+	60	14
+	+	61	3
+	+	62	3
+	+	62	100
+	+	63	32
+	+	64	98
+	+	65	84
+	+	66	4
+	+	67	56
+	+	68	97
+	+	69	96
+	+	71	93
+	+	72	95
+	+	76	46
+	+	72	56
+	+	76	0
+	+	72	100
+	+	73	73
+	+	74	94
+	+	75	32
+	+	77	83
+	+	78	0
+	+	79	1
+	+	77	1
+	+	71	3
+	+	75	3
+	+	74	3
+	+	72	4
+	+	73	3
+	+	75	3
+	+	80	30
+	+	81	2
+	+	82	95
+	+	83	49
+	+	25	36
+
+> ~/documents/notes/notes/comp1010/COMP1010.wiki
+	*	1582994185	0
+	"	4	0
+	.	4	0
+	+	4	0
+
+> ~/.fehbg
+	*	1582992580	0
+	"	2	64
+	^	2	65
+	.	2	64
+	+	2	64
+
+> ~/documents/notes/notes/math1110/MATH1110.wiki
+	*	1582966777	0
+	"	4	0
+
+> ~/test.tex
+	*	1582916741	0
+	"	293	0
+	^	343	14
+	.	293	0
+	+	1	13
+	+	1	0
+	+	1	16
+	+	1	0
+	+	1	29
+	+	343	13
+	+	293	0
+
+> ~/test.
+	*	1582916717	0
+	"	1	0
+
+> ~/.zshrc
+	*	1582915235	0
+	"	13	13
+	^	13	75
+	.	13	74
+	+	10	7
+	+	11	31
+	+	13	74
+
+> ~/documents/notes/notes/seng1110/Lecture 1.wiki
+	*	1582896941	0
+	"	59	0
+
+> ~/documents/notes/notes/seng1110/SENG1110.wiki
+	*	1582896929	0
+	"	3	0
+
+> ~/documents/notes/notes/engg1003/ENGG1003.wiki
+	*	1582856071	0
+	"	2	0
+	^	3	11
+	.	3	10
+	+	3	10
+
+> ~/documents/notes/notes/engg1003/Lecture 1.wiki
+	*	1582855309	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> ~/documents/notes/notes/engg1003/ENGG1003 Overview.wiki
+	*	1582855206	0
+	"	1	0
+
+> ~/documents/notes/notes/comp1010/COMP1010.wiki_
+	*	1582855157	0
+	"	4	0
+
+> ~/documents/notes/notes/math1110/MATH1110.wiki.wiki
+	*	1582854995	0
+	"	1	0
+
+> ~/documents/notes/notes/MATH1110.wiki
+	*	1582854873	0
+	"	1	0
+
+> ~/documents/notes/notes/COMP1010.wiki
+	*	1582854815	0
+	"	1	0
+	^	4	13
+	.	4	12
+	+	4	12
+
+> ~/documents/notes/notes/Lecture 1.wiki
+	*	1582854663	0
+	"	1	0
+	^	108	18
+	.	108	18
+	+	44	72
+	+	45	0
+	+	52	65
+	+	39	0
+	+	52	0
+	+	41	0
+	+	40	0
+	+	52	0
+	+	42	37
+	+	46	37
+	+	47	24
+	+	48	23
+	+	49	30
+	+	50	35
+	+	51	4
+	+	54	81
+	+	55	52
+	+	56	4
+	+	55	73
+	+	56	61
+	+	57	98
+	+	58	10
+	+	60	17
+	+	61	1
+	+	104	1
+	+	62	43
+	+	63	8
+	+	64	6
+	+	65	10
+	+	66	0
+	+	67	95
+	+	68	21
+	+	69	0
+	+	70	32
+	+	71	90
+	+	72	77
+	+	73	80
+	+	74	0
+	+	75	28
+	+	75	86
+	+	75	87
+	+	76	16
+	+	77	57
+	+	78	38
+	+	79	31
+	+	103	5
+	+	78	99
+	+	80	39
+	+	81	60
+	+	82	26
+	+	83	0
+	+	82	0
+	+	84	1
+	+	78	37
+	+	72	76
+	+	73	64
+	+	84	33
+	+	85	4
+	+	85	5
+	+	102	1
+	+	85	4
+	+	86	26
+	+	87	25
+	+	88	2
+	+	89	40
+	+	92	34
+	+	89	0
+	+	92	0
+	+	86	0
+	+	87	0
+	+	88	0
+	+	101	0
+	+	89	0
+	+	92	0
+	+	84	31
+	+	89	14
+	+	91	0
+	+	89	0
+	+	87	13
+	+	91	0
+	+	92	0
+	+	89	0
+	+	90	6
+	+	100	4
+	+	93	39
+	+	94	55
+	+	100	0
+	+	95	32
+	+	96	32
+	+	97	7
+	+	98	63
+	+	99	33
+	+	104	10
+	+	105	21
+	+	106	21
+	+	107	12
+	+	108	17
+	+	109	0
+	+	110	0
+	+	108	18
+
+> ~/documents/notes/notes/Lecture.wiki
+	*	1582854651	0
+	"	1	0
+
+> ~/.git-credentials
+	*	1582854263	0
+	"	1	50
+	^	1	51
+	.	1	50
+	+	1	50
+
+> ~/test.java
+	*	1582853684	0
+	"	19	0
+	^	21	15
+	.	21	14
+	+	3	25
+	+	4	1
+	+	5	27
+	+	7	38
+	+	1	24
+	+	5	39
+	+	7	59
+	+	8	4
+	+	11	54
+	+	12	46
+	+	24	0
+	+	14	29
+	+	15	29
+	+	17	69
+	+	18	31
+	+	12	4
+	+	11	50
+	+	14	25
+	+	15	25
+	+	9	17
+	+	24	0
+	+	14	26
+	+	20	54
+	+	21	28
+	+	23	26
+	+	21	14
+
+> ~/zsh
+	*	1582852822	0
+	"	1	0
+
+> ~/documents/notes/notes/SENG1110.wiki
+	*	1582852436	0
+	"	3	0
+	^	3	11
+	.	4	0
+	+	3	0
+	+	3	11
+	+	4	0
+
+> ~/documents/notes/notes_html/Lecture 1.html
+	*	1582843205	0
+	"	1	0
+
+> /etc/sysctl.d/laptop.conf
+	*	1582793550	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/dotfiles/ranger/.config/ranger/rc.conf
+	*	1582793329	0
+	"	181	10
+
+> ~/documents/ENGG1003/main.c
+	*	1582783885	0
+	"	22	5
+	^	14	6
+	.	14	5
+	+	9	10
+	+	27	24
+	+	27	10
+	+	2	0
+	+	27	0
+	+	27	7
+	+	27	1
+	+	27	9
+	+	27	21
+	+	27	53
+	+	2	18
+	+	27	0
+	+	27	46
+	+	27	13
+	+	27	0
+	+	27	56
+	+	27	24
+	+	27	46
+	+	27	0
+	+	27	29
+	+	27	18
+	+	27	8
+	+	27	9
+	+	27	23
+	+	27	10
+	+	27	14
+	+	27	0
+	+	27	37
+	+	27	0
+	+	27	10
+	+	27	31
+	+	27	10
+	+	27	5
+	+	27	14
+	+	27	33
+	+	2	0
+	+	9	31
+	+	27	6
+	+	27	10
+	+	27	31
+	+	27	23
+	+	27	11
+	+	27	25
+	+	27	14
+	+	9	13
+	+	27	0
+	+	27	40
+	+	27	0
+	+	27	37
+	+	9	9
+	+	2	18
+	+	27	0
+	+	26	10
+	+	25	0
+	+	12	40
+	+	11	13
+	+	16	4
+	+	2	0
+	+	3	17
+	+	6	18
+	+	16	24
+	+	18	0
+	+	16	23
+	+	18	37
+	+	16	19
+	+	18	0
+	+	17	36
+	+	19	28
+	+	20	37
+	+	17	39
+	+	23	42
+	+	20	36
+	+	17	38
+	+	19	6
+	+	6	19
+	+	13	28
+	+	16	4
+	+	3	15
+	+	6	18
+	+	5	24
+	+	6	15
+	+	3	26
+	+	6	14
+	+	3	27
+	+	5	23
+	+	13	28
+	+	2	0
+	+	15	22
+	+	16	10
+	+	19	15
+	+	2	0
+	+	3	0
+	+	15	0
+	+	14	5
+
+> ~/dotfiles/dwm/.config/dwm/status.sh
+	*	1582764911	0
+	"	29	0
+	.	29	0
+	+	29	10
+	+	29	0
+
+> ~/dotfiles/sxhkd/.config/sxhkd/sxhkdrc
+	*	1582763731	0
+	"	3	6
+
+> ~/.xinitrc
+	*	1582762924	0
+	"	4	15
+
+> ~/test.c
+	*	1582762674	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	3	11
+	+	4	23
+	+	6	10
+
+> ~/dotfiles/dwm/.config/dwm/config.h
+	*	1582762592	0
+	"	51	18
+	.	51	18
+	+	8	57
+	+	51	18
+
+> ~/documents/notes/notes/ENGG1003.wiki
+	*	1582762170	0
+	"	3	0
+
+> ~/.config/dmenu/config.h
+	*	1582761897	0
+	"	4	20
+	.	4	20
+	+	4	20
+
+> ~/.config/dmenu/dmenu.c
+	*	1582761863	0
+	"	24	30
+	^	24	31
+	.	24	30
+	+	24	30
 
 > ~/dotfiles/st/.config/st/config.h
-	*	1582529411	0
-	"	82	25
-	.	82	25
+	*	1582761607	0
+	"	8	48
+	.	8	48
 	+	82	25
+	+	8	48
+
+> /usr/bin/zsh
+	*	1582760997	0
+	"	1	0
+
+> ~/dotfiles/.xinitrc
+	*	1582760921	0
+	"	7	7
+	^	7	8
+	.	7	7
+	+	7	7
+
+> ~/dotfiles/dwm/.config/dwm/.xinitrc
+	*	1582760845	0
+	"	1	0
+
+> ~/documents/notes/notes/Course Overview.wiki
+	*	1582529703	0
+	"	9	37
+	^	6	54
+	.	9	44
+	+	9	42
+	+	10	0
+	+	11	0
+	+	9	44
