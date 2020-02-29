@@ -13,6 +13,9 @@
 # Last Search Pattern:
 ~MSle0~/31
 
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :q!
 |2,0,1582955426,,"q!"
@@ -26,6 +29,8 @@
 |2,0,1582528144,,"PlugInstall"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1582961142,,"@$"
 ?/31
 |2,1,1582530431,47,"31"
 ?/TERM
@@ -44,9 +49,9 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	plug
-|3,0,0,0,1,0,1582527641,"plug"
+""0	CHAR	0
+	~/.vim/plugged/vimwiki/autoload/vimwiki/
+|3,1,0,0,1,0,1582961146,"~/.vim/plugged/vimwiki/autoload/vimwiki/"
 "1	LINE	0
 	<link rel="icon" href="icon_path" type="image/icon type">
 |3,0,1,1,1,0,1582955253,"<link rel=\"icon\" href=\"icon_path\" type=\"image/icon type\">"
@@ -74,41 +79,51 @@
 "9	LINE	0
 	      "     " render properly when inside 256-color tmux and GNU screen.
 |3,0,9,1,1,0,1582529306,"      \"     \" render properly when inside 256-color tmux and GNU screen."
-""-	CHAR	0
+"-	CHAR	0
 	~/.vim/plugged/vimwiki/autoload/vimwiki/
-|3,1,36,0,1,0,1582955512,"~/.vim/plugged/vimwiki/autoload/vimwiki/"
+|3,0,36,0,1,0,1582955512,"~/.vim/plugged/vimwiki/autoload/vimwiki/"
 
 # File marks:
-'0  6  52  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,48,6,52,1582955513,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
-'1  1  0  ~/documents/notes/notes/index.wiki
-|4,49,1,0,1582955499,"~/documents/notes/notes/index.wiki"
-'2  107  39  ~/.vimrc
-|4,50,107,39,1582955452,"~/.vimrc"
-'3  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
-|4,51,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
-'4  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,52,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
-'5  1  0  ~/documents/notes/notes/index.wiki
-|4,53,1,0,1582955359,"~/documents/notes/notes/index.wiki"
-'6  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,54,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+'0  1  0  ~/dotfiles/.git/FETCH_HEAD
+|4,48,1,0,1582961147,"~/dotfiles/.git/FETCH_HEAD"
+'1  6  52  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,49,6,52,1582955513,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+'2  1  0  ~/documents/notes/notes/index.wiki
+|4,50,1,0,1582955499,"~/documents/notes/notes/index.wiki"
+'3  107  39  ~/.vimrc
+|4,51,107,39,1582955452,"~/.vimrc"
+'4  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,52,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+'5  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,53,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+'6  1  0  ~/documents/notes/notes/index.wiki
+|4,54,1,0,1582955359,"~/documents/notes/notes/index.wiki"
 '7  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 |4,55,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
-'8  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,56,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
-'9  4  0  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,57,4,0,1582873666,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+'8  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,56,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+'9  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
+|4,57,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
 
 # Jumplist (newest first):
+-'  1  0  ~/dotfiles/.git/FETCH_HEAD
+|4,39,1,0,1582961147,"~/dotfiles/.git/FETCH_HEAD"
 -'  6  52  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 |4,39,6,52,1582955513,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  52  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,52,1582955513,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955505,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
 -'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 |4,39,1,0,1582955505,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
 -'  1  0  ~/documents/notes/notes/index.wiki
 |4,39,1,0,1582955499,"~/documents/notes/notes/index.wiki"
 -'  1  0  ~/documents/notes/notes/index.wiki
 |4,39,1,0,1582955499,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955499,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955499,"~/documents/notes/notes/index.wiki"
 -'  107  39  ~/.vimrc
 |4,39,107,39,1582955452,"~/.vimrc"
 -'  107  39  ~/.vimrc
@@ -117,6 +132,22 @@
 |4,39,107,39,1582955452,"~/.vimrc"
 -'  107  39  ~/.vimrc
 |4,39,107,39,1582955452,"~/.vimrc"
+-'  107  39  ~/.vimrc
+|4,39,107,39,1582955452,"~/.vimrc"
+-'  107  39  ~/.vimrc
+|4,39,107,39,1582955452,"~/.vimrc"
+-'  107  39  ~/.vimrc
+|4,39,107,39,1582955452,"~/.vimrc"
+-'  107  39  ~/.vimrc
+|4,39,107,39,1582955452,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1582955431,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1582955431,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1582955431,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1582955431,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1582955431,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -141,6 +172,22 @@
 |4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
 -'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
 |4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc
+|4,39,1,0,1582955426,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/.vimrc"
 -'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 |4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
 -'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
@@ -157,6 +204,38 @@
 |4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
 -'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 |4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  6  20  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,6,20,1582955416,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
+-'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
+|4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
 -'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 |4,39,1,0,1582955384,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
 -'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
@@ -205,104 +284,32 @@
 |4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
 -'  1  0  ~/documents/notes/notes/index.wiki
 |4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  6  99  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,6,99,1582955331,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  0  ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
-|4,39,1,0,1582955059,"~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
--'  1  2  ~/documents/notes/notes/comp1010/COMP1010.wiki
-|4,39,1,2,1582873680,"~/documents/notes/notes/comp1010/COMP1010.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
+-'  1  0  ~/documents/notes/notes/index.wiki
+|4,39,1,0,1582955359,"~/documents/notes/notes/index.wiki"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.git/FETCH_HEAD
+	*	1582961146	0
+	"	1	0
 
 > ~/dotfiles/vim/.vim/plugged/vimwiki/autoload/vimwiki/default.tpl
 	*	1582955512	0
