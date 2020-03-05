@@ -1,14 +1,14 @@
 # Quicklaunch applications
-super + o; {i,z}
+alt + o; {i,z}
 	{brave, zathura} 
 
-super + o; {m} 
+alt + o; {m} 
  {brave www.gmail.com}
  
-super + o; {t} 
+alt + o; {t} 
   {brave https://bit.ly/2P9BAEL}
 
-super + o; {c}
+alt + o; {c}
   {brave https://calendar.google.com/calendar/r}
 
 # Audiokeys
