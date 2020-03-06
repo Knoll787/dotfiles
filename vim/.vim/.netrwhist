@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/nwoods/documents/courses/seng1110/lab1'
 let g:netrw_dirhist_3='/home/nwoods/.config/zathura'
 let g:netrw_dirhist_2='/home/nwoods/documents/courses/engg1003/workshop2'
 let g:netrw_dirhist_1='/home/nwoods/documents/courses/engg1003'
