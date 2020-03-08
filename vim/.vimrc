@@ -13,6 +13,7 @@ Plug 'dracula/vim'
 Plug 'vimwiki/vimwiki'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'itchyny/calendar.vim'
 
 call plug#end()
 
@@ -108,6 +109,11 @@ let g:vimwiki_list = [{
   \ 'template_path': '$HOME/.vim/plugged/vimwiki/autoload/vimwiki/',
   \ 'template_default': 'default',
   \ 'template_ext': '.tpl'}]
+
+""Calendar.vim
+source ~/.cache/calendar.vim/credentials.vim
+let g:calendar_google_calendar = 1
+let g:calendar_google_task = 1
 
 
 ""Key Mappings/Commands
