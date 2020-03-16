@@ -25,7 +25,8 @@ colorscheme dracula
 set laststatus=2
 
 ""General System Settings
-set number
+set number relativenumber
+set nu rnu
 set textwidth=100
 set spell spelllang=en_au
 set spellfile=~/.vim/spell.en.utf-8.add
