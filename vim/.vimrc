@@ -94,7 +94,8 @@ map <F11> :w<CR>:VimwikiAll2HTML<Cr>
 
 ""Goyo
 function! s:goyo_enter()
-  set number
+  set number relativenumber
+  set nu rnu 
   Goyo 100x110%
 endfunction
 function! s:goyo_leave()
