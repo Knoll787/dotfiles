@@ -28,6 +28,7 @@ set laststatus=2
 set number relativenumber
 set nu rnu
 autocmd BufRead,BufNewFile *.wiki set textwidth=100 
+autocmd BufRead,BufNewFile *.tex set textwidth=100 
 autocmd BufRead,BufNewFile *.bib set nospell 
 set spell spelllang=en_au
 set spellfile=~/.vim/spell.en.utf-8.add
