@@ -27,7 +27,8 @@ set laststatus=2
 ""General System Settings
 set number relativenumber
 set nu rnu
-set textwidth=100
+autocmd BufRead,BufNewFile *.wiki set textwidth=100 
+autocmd BufRead,BufNewFile *.bib set nospell 
 set spell spelllang=en_au
 set spellfile=~/.vim/spell.en.utf-8.add
 set expandtab
@@ -68,7 +69,7 @@ let s:makeprg_for_filetype = {
       \ "python"   : "python %",
       \ "rust"     : "rustc % && ./%<",
       \ "sh"       : "chmod +x %:p && %:p",
-      \ "tex"      : "pdflatex -file-line-error -interaction=nonstopmode % .pdf",
+      \ "tex"      : "pdflatex % && bibtex report  && pdflatex % && pdflatex %",
       \ "xhtml"    : "tidy -asxhtml -quiet -errors --gnu-emacs yes %:S; brave % &",
       \ "java"     : "java %",
       \}
