@@ -1,6 +1,6 @@
 #!/bin/sh
 numlockx &
-~/.fehbg &
+~/pictures/backgrounds/.fehbg &
 ~/.config/dwm/status.sh &
 sxhkd &
 

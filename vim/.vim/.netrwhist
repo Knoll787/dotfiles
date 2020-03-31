@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/nwoods/dotfiles/ohMyZsh'
 let g:netrw_dirhist_7='/home/nwoods/documents/courses/engg1003'
 let g:netrw_dirhist_6='/home/nwoods/documents/courses'
 let g:netrw_dirhist_5='/home/nwoods/documents'

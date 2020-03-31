@@ -1,4 +1,4 @@
-autoload -Uz compinit promptinit
+utoload -Uz compinit promptinit
 compinit
 promptinit
 
@@ -8,6 +8,6 @@ export TERM=xterm-256color
 cd ~/
 
 #Aliases
-alias shutdown='shutdown -h now'
-alias notes='brave ~/documents/notes/notes_html/index.html'
-alias brightness='sudo vim /sys/class/backlight/intel_backlight/brightness'
+#alias shutdown='shutdown -h now'
+#alias notes='brave ~/documents/notes/notes_html/index.html'
+#alias brightness='sudo vim /sys/class/backlight/intel_backlight/brightness'}}}
