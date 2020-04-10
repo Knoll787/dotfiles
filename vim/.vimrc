@@ -11,9 +11,6 @@ Plug 'kien/ctrlp.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'dracula/vim'
 Plug 'vimwiki/vimwiki'
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'itchyny/calendar.vim'
 
 call plug#end()
 
@@ -56,8 +53,8 @@ let s:compiler_for_filetype = {
 let s:makeprg_for_filetype = {
       \ "asm"      : "as -o %<.o % && ld -s -o %< %<.o && rm %<.o && ./%<",
       \ "basic"    : "vintbas %",
-      \ "c"        : "gcc -std=gnu11 -g % -lm -o %< && ./%<",
-      \ "cpp"      : "g++ -std=gnu++11 -g % -o % && ./%<",
+      \ "c"        : "clear && gcc -std=gnu11 -g % -lm -o %< && ./%<",
+      \ "cpp"      : "clear && g++ -std=gnu++11 -g % -o % && ./%<",
       \ "go"       : "go build && ./%<",
       \ "haskell"  : "ghc -o %< %; rm %<.hi %<.o && ./%<",
       \ "html"     : "tidy -quiet -errors --gnu-emacs yes %:S; firefox -new-window % &",
@@ -67,12 +64,12 @@ let s:makeprg_for_filetype = {
       \ "nasm"     : "nasm -f elf64 -g % && ld -g -o %< %<.o && rm %<.o && ./%<",
       \ "perl"     : "perl %",
       \ "plaintex" : "pdftex -file-line-error -interaction=nonstopmode % <%.pdf",
-      \ "python"   : "python %",
-      \ "rust"     : "rustc % && ./%<",
-      \ "sh"       : "chmod +x %:p && %:p",
-      \ "tex"      : "pdflatex % && bibtex report  && pdflatex % && pdflatex %",
+      \ "python"   : "clear && python %",
+      \ "rust"     : "clear && rustc % && ./%<",
+      \ "sh"       : "clear && chmod +x %:p && %:p",
+      \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %",
       \ "xhtml"    : "tidy -asxhtml -quiet -errors --gnu-emacs yes %:S; brave % &",
-      \ "java"     : "javac % && java %",
+      \ "java"     : "clear && javac % && java %",
       \}
 
 let &shellpipe="2> >(tee %s)"
@@ -133,4 +130,3 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
