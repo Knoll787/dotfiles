@@ -10,6 +10,8 @@ alt + o; {t}
 
 alt + o; {c}
   {brave https://calendar.google.com/calendar/r}
+alt + o; {n}
+  {brave https://www.notion.so/15de015a1b6d447e9508ea61a8d94a90?v=4d11846d0a1848a3a551516fe1e832d2}
 
 # Audiokeys
 XF86AudioMute
