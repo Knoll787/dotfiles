@@ -48,7 +48,7 @@ let s:compiler_for_filetype = {
       \ "plaintex" : "tex",
       \ "python"   : "pyunit",
       \ "tex"      : "tex",
-      \ "matlab"   : "octave",
+      \ "m"   : "octave",
       \}
 
 let s:makeprg_for_filetype = {
