@@ -114,9 +114,19 @@ let g:vimwiki_list = [{
   \ 'template_ext': '.tpl'}]
 
 ""Fugitive
-noremap <Leader>s :G<Cr>
-noremap <Leader>c :Gcommit<Cr>
-noremap <Leader>p :Gpush<Cr>
+nnoremap <space>ga  :G
+nnoremap <space>gs  :Gstatus<CR>
+nnoremap <space>gc  :Gcommit<CR>
+nnoremap <space>gt  :Gcommit<CR>
+nnoremap <space>gd  :Gdelete<CR>
+nnoremap <space>ge  :Gedit<CR>
+nnoremap <space>gr  :Gread<CR>
+nnoremap <space>gw  :Gwrite<CR><CR>
+nnoremap <space>gm  :Gmove<Space>
+nnoremap <space>gb  :Git branch<Space>
+nnoremap <space>go  :Git checkout<Space>
+nnoremap <space>gps :!git push<space>
+nnoremap <space>gpl :!git pull<space>
 
 ""Key Mappings/Commands
 inoremap jj <ESC>
