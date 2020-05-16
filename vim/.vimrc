@@ -5,12 +5,12 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin()
 
-Plug 'VundleVim/Vundle.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'dracula/vim'
 Plug 'vimwiki/vimwiki'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -101,7 +101,7 @@ function! s:goyo_enter()
 endfunction
 function! s:goyo_leave()
 endfunction
-map \g :Goyo<Cr>
+noremap <Leader><space> :Goyo<Cr>
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
@@ -113,11 +113,10 @@ let g:vimwiki_list = [{
   \ 'template_default': 'default',
   \ 'template_ext': '.tpl'}]
 
-""Calendar.vim
-source ~/.cache/calendar.vim/credentials.vim
-let g:calendar_google_calendar = 1
-let g:calendar_google_task = 1
-
+""Fugitive
+noremap <Leader>s :G<Cr>
+noremap <Leader>c :Gcommit<Cr>
+noremap <Leader>p :Gpush<Cr>
 
 ""Key Mappings/Commands
 inoremap jj <ESC>
