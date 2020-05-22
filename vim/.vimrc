@@ -27,6 +27,7 @@ set nu rnu
 autocmd BufRead,BufNewFile *.wiki set textwidth=100 
 autocmd BufRead,BufNewFile *.tex set textwidth=100 
 autocmd BufRead,BufNewFile *.bib set nospell 
+autocmd BufRead,BufNewFile *.m set nospell 
 set spell spelllang=en_au
 set spellfile=~/.vim/spell.en.utf-8.add
 set expandtab
@@ -70,7 +71,7 @@ let s:makeprg_for_filetype = {
       \ "sh"       : "clear && chmod +x %:p && %:p",
       \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %",
       \ "xhtml"    : "tidy -asxhtml -quiet -errors --gnu-emacs yes %:S; brave % &",
-      \ "java"     : "clear && javac % && java %",
+      \ "java"     : "clear && javac % && java %<",
       \ "matlab"   : "clear && octave %",
       \}
 
@@ -113,7 +114,7 @@ let g:vimwiki_list = [{
   \ 'template_default': 'default',
   \ 'template_ext': '.tpl'}]
 
-""Fugitive
+""Fugitive key bindings
 nnoremap <space>ga  :G<Cr>
 nnoremap <space>gs  :Gstatus<CR>
 nnoremap <space>gc  :Gcommit<CR>
