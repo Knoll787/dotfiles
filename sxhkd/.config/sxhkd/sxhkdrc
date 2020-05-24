@@ -12,6 +12,8 @@ alt + o; {c}
   {brave https://calendar.google.com/calendar/r}
 alt + o; {n}
   {brave https://bit.ly/2xykj2h}
+ctrl + alt + l;
+  {slock}
 
 # Audiokeys
 XF86AudioMute
