@@ -41,36 +41,18 @@ set wildmode=longest:full,full
 ""Running Code
 let s:compiler_for_filetype = {
       \ "c,cpp"    : "gcc",
-      \ "go"       : "go",
-      \ "haskell"  : "ghc",
-      \ "html"     : "tidy",
-      \ "perl"     : "perl",
-      \ "php"      : "php",
-      \ "plaintex" : "tex",
       \ "python"   : "pyunit",
       \ "tex"      : "tex",
       \ "m"   : "octave",
       \}
 
 let s:makeprg_for_filetype = {
-      \ "asm"      : "as -o %<.o % && ld -s -o %< %<.o && rm %<.o && ./%<",
-      \ "basic"    : "vintbas %",
       \ "c"        : "clear && gcc -std=gnu11 -g % -lm -o %< && ./%<",
       \ "cpp"      : "clear && g++ -std=gnu++11 -g % -o % && ./%<",
-      \ "go"       : "go build && ./%<",
-      \ "haskell"  : "ghc -o %< %; rm %<.hi %<.o && ./%<",
-      \ "html"     : "tidy -quiet -errors --gnu-emacs yes %:S; firefox -new-window % &",
-      \ "lisp"     : "clisp %",
-      \ "lua"      : "lua %",
       \ "markdown" : "grip --quiet -b %",
-      \ "nasm"     : "nasm -f elf64 -g % && ld -g -o %< %<.o && rm %<.o && ./%<",
-      \ "perl"     : "perl %",
-      \ "plaintex" : "pdftex -file-line-error -interaction=nonstopmode % <%.pdf",
       \ "python"   : "clear && python %",
-      \ "rust"     : "clear && rustc % && ./%<",
       \ "sh"       : "clear && chmod +x %:p && %:p",
       \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %",
-      \ "xhtml"    : "tidy -asxhtml -quiet -errors --gnu-emacs yes %:S; brave % &",
       \ "java"     : "clear && javac % && java %<",
       \ "matlab"   : "clear && octave %",
       \}
@@ -130,8 +112,8 @@ nnoremap <space>gp :!git push<space>
 nnoremap <space>gpl :!git pull<space>
 
 ""Key Mappings/Commands
-inoremap jj <ESC>
-vnoremap jj <ESC>
+inoremap jk <ESC>
+vnoremap jk <ESC>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>

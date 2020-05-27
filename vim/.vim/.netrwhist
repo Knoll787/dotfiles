@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/nwoods/.config/balena-etcher'
 let g:netrw_dirhist_1='/home/nwoods/documents/courses/seng1110/lab6/candy'
 let g:netrw_dirhist_0='/home/nwoods/musicCollection/src'
 let g:netrw_dirhist_9='/home/nwoods/musicCollection'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/nwoods/documents/courses/comp1010/ass1/report'
 let g:netrw_dirhist_5='/home/nwoods/englishTextCiphers/src'
 let g:netrw_dirhist_4='/home/nwoods/englishTextCiphers'
 let g:netrw_dirhist_3='/home/nwoods/englishTextCiphers/src'
-let g:netrw_dirhist_2='/home/nwoods/englishTextCiphers'
