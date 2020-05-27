@@ -108,11 +108,11 @@ nnoremap <space>gw  :Gwrite<CR><CR>
 nnoremap <space>gm  :Gmove<Space>
 nnoremap <space>gb  :Git branch<Space>
 nnoremap <space>go  :Git checkout<Space>
-nnoremap <space>gp :!git push<space>
+nnoremap <space>gp  :!git push<space>
 nnoremap <space>gpl :!git pull<space>
 
 ""Key Mappings/Commands
-inoremap jk <ESC>
+inoremap jj <ESC>
 vnoremap jk <ESC>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
