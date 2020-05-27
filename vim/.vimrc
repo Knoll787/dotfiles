@@ -113,7 +113,6 @@ nnoremap <space>gpl :!git pull<space>
 
 ""Key Mappings/Commands
 inoremap jj <ESC>
-vnoremap jk <ESC>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
