@@ -23,7 +23,7 @@ set laststatus=2
 
 ""General System Settings
 set number relativenumber
-set nu rnu
+set clipboard=unnamedplus
 autocmd BufRead,BufNewFile *.wiki set textwidth=100 
 autocmd BufRead,BufNewFile *.tex set textwidth=100 
 autocmd BufRead,BufNewFile *.bib set nospell 
@@ -52,7 +52,7 @@ let s:makeprg_for_filetype = {
       \ "markdown" : "grip --quiet -b %",
       \ "python"   : "clear && python %",
       \ "sh"       : "clear && chmod +x %:p && %:p",
-      \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %",
+      \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %<",
       \ "java"     : "clear && javac % && java %<",
       \ "matlab"   : "clear && octave %",
       \}
