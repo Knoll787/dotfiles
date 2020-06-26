@@ -24,8 +24,8 @@ set laststatus=2
 ""General System Settings
 set number relativenumber
 set clipboard=unnamedplus
-autocmd BufRead,BufNewFile *.wiki set textwidth=100 
-autocmd BufRead,BufNewFile *.tex set textwidth=100 
+autocmd BufRead,BufNewFile *.wiki set textwidth=110 
+autocmd BufRead,BufNewFile *.tex set textwidth=110 
 autocmd BufRead,BufNewFile *.bib set nospell 
 autocmd BufRead,BufNewFile *.m set nospell 
 set spell spelllang=en_au
@@ -37,20 +37,21 @@ set shiftwidth=2
 set cursorline
 set showmatch
 set wildmode=longest:full,full
+set encoding=utf-8
 
 ""Running Code
 let s:compiler_for_filetype = {
       \ "c,cpp"    : "gcc",
       \ "python"   : "pyunit",
       \ "tex"      : "tex",
-      \ "m"   : "octave",
+      \ "m"        : "octave",
       \}
 
 let s:makeprg_for_filetype = {
       \ "c"        : "clear && gcc -std=gnu11 -g % -lm -o %< && ./%<",
       \ "cpp"      : "clear && g++ -std=gnu++11 -g % -o % && ./%<",
       \ "markdown" : "grip --quiet -b %",
-      \ "python"   : "clear && python %",
+      \ "python"   : "clear && python3 %",
       \ "sh"       : "clear && chmod +x %:p && %:p",
       \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %<",
       \ "java"     : "clear && javac % && java %<",
