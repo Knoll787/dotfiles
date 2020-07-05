@@ -23,7 +23,7 @@ export EDITOR="/usr/bin/vim"
 #Aliases
 alias shutdown='shutdown -h now'
 alias notes='brave ~/documents/notes/notes_html/index.html'
-alias brightness='sudo vim /sys/class/backlight/intel_backlight/brightness'
+alias brightness='sudoedit /sys/class/backlight/intel_backlight/brightness'
 alias open='xdg-open'
 
 

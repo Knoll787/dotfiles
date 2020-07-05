@@ -50,7 +50,7 @@ let s:compiler_for_filetype = {
 let s:makeprg_for_filetype = {
       \ "c"        : "clear && gcc -std=gnu11 -g % -lm -o %< && ./%<",
       \ "cpp"      : "clear && g++ -std=gnu++11 -g % -o % && ./%<",
-      \ "markdown" : "grip --quiet -b %",
+      \ "markdown" : "clear && grip --quiet -b %",
       \ "python"   : "clear && python3 %",
       \ "sh"       : "clear && chmod +x %:p && %:p",
       \ "tex"      : "clear && pdflatex % && bibtex report  && pdflatex % && pdflatex %<",
