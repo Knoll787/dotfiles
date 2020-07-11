@@ -9,7 +9,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'dracula/vim'
-Plug 'vimwiki/vimwiki'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
