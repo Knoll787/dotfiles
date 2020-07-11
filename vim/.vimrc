@@ -24,10 +24,9 @@ set laststatus=2
 ""General System Settings
 set number relativenumber
 set clipboard=unnamedplus
-autocmd BufRead,BufNewFile *.wiki set textwidth=110 
-autocmd BufRead,BufNewFile *.tex set textwidth=110 
-autocmd BufRead,BufNewFile *.bib set nospell 
-autocmd BufRead,BufNewFile *.m set nospell 
+set wrap linebreak textwidth=100
+autocmd BufRead,BufNewFile *.bib  set nospell 
+autocmd BufRead,BufNewFile *.m    set nospell 
 set spell spelllang=en_au
 set spellfile=~/.vim/spell.en.utf-8.add
 set expandtab
