@@ -6,7 +6,6 @@ call plug#begin()
 
 Plug 'kien/ctrlp.vim'
 Plug 'dracula/vim'
-Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
