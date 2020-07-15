@@ -4,7 +4,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin()
 
-Plug 'itchyny/lightline.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'dracula/vim'
 Plug 'tpope/vim-fugitive'
