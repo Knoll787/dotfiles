@@ -1,18 +1,15 @@
 set nocompatible
 filetype off 
 
-""Plugins
 set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin()
 
 Plug 'itchyny/lightline.vim'
 Plug 'kien/ctrlp.vim'
-Plug 'junegunn/goyo.vim'
 Plug 'dracula/vim'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
-
 
 ""Colour Theme
 set t_Co=256
@@ -29,6 +26,7 @@ autocmd BufRead,BufNewFile *.m    set nospell
 set spell spelllang=en_au
 set spellfile=~/.vim/spell.en.utf-8.add
 set expandtab
+set ai
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -73,19 +71,6 @@ endfunction
 nnoremap <F9> :call CompileAndRun()<CR>
 map <F10> <ESC>:w!<CR>
 map <F11> :w<CR>:VimwikiAll2HTML<Cr>
-
-
-""Goyo
-function! s:goyo_enter()
-  set number relativenumber
-  set nu rnu 
-  Goyo 100x110%
-endfunction
-function! s:goyo_leave()
-endfunction
-noremap <Leader><space> :Goyo<Cr>
-autocmd! User GoyoEnter nested call <SID>goyo_enter()
-autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 ""Vimwiki
 let g:vimwiki_list = [{'path': '~/documents/notes/notes/'}]
