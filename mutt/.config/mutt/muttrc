@@ -7,6 +7,9 @@ set alias_file = "~/.config/mutt/aliases"
 set sort_alias = alias
 set reverse_alias = yes
 source $alias_file
+set mailcap_path = ~/.config/mutt/mailcap
+auto_view text/html
+alternative_order text/plain text/html
 
 # Personal Account 
 source "~/.config/mutt/personal"

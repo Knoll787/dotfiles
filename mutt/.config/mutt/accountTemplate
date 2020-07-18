@@ -1,0 +1,16 @@
+# Personal Details
+set from = "email@gmail.com"
+set realname = "name"
+
+# My credentials
+set smtp_url = "smtp://email@gmail.com@smtp.gmail.com:587/"
+set imap_user = "email@gmail.com"
+set smtp_pass = "password"
+set imap_pass = "password"
+
+# My mailboxes
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Client]/Drafts"
+
+account-hook $folder "set imap_user=email@gmail.com imap_pass=password"
