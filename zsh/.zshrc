@@ -28,3 +28,4 @@ alias open='xdg-open'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+bindkey -v
