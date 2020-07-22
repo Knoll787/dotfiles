@@ -3,7 +3,7 @@ alt + o; {i,z}
 	{google-chrome-stable, zathura} 
 
 alt + o; {m} 
- {google-chrome-stable www.gmail.com}
+ {st mutt}
  
 alt + o; {t} 
   {google-chrome-stable https://bit.ly/2P9BAEL}
