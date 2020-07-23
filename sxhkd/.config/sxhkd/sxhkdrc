@@ -1,17 +1,17 @@
 # Quicklaunch applications
 alt + o; {i,z}
-	{google-chrome-stable, zathura} 
+	{chromium, zathura} 
 
 alt + o; {m} 
  {st mutt}
  
 alt + o; {t} 
-  {google-chrome-stable https://bit.ly/2P9BAEL}
+  {chromium https://bit.ly/2P9BAEL}
 
 alt + o; {c}
-  {google-chrome-stable https://calendar.google.com/calendar/r}
+  {chromium https://calendar.google.com/calendar/r}
 alt + o; {n}
-  {google-chrome-stable https://bit.ly/2xykj2h}
+  {chromium https://bit.ly/2xykj2h}
 ctrl + alt + l;
   {slock}
 
