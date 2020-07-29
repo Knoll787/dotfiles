@@ -6,10 +6,12 @@ set editor = "vim"
 set alias_file = "~/.config/mutt/aliases"
 set sort_alias = alias
 set reverse_alias = yes
+unset record
 source $alias_file
 set mailcap_path = ~/.config/mutt/mailcap
 auto_view text/html
 alternative_order text/plain text/html
+set sort = reverse-date-received
 
 # Personal Account 
 source "~/.config/mutt/personal"

@@ -1,0 +1,136 @@
+Delivered-To: nwoods431@gmail.com
+Received: by 2002:ab3:5f94:0:0:0:0:0 with SMTP id w20csp1140744ltc;
+        Thu, 23 Jul 2020 00:10:53 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJyFbAvz3w/0EYThS4gHwF9VhlIMRjRxQB3tB39BdDowgkNM4PrGHwuH94DAeH/NuJtAX9FZ
+X-Received: by 2002:a9d:24c3:: with SMTP id z61mr2991254ota.32.1595488253464;
+        Thu, 23 Jul 2020 00:10:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1595488253; cv=none;
+        d=google.com; s=arc-20160816;
+        b=za1eF0UV+M/B4DpAPJNZlA0uxEVQntdmFAOvlBJoJh+Yu/UYv36aFoUzPA4k9EUl9N
+         t050GRsVVh76HYCk/jS2KVxE5Bq3k1v6t/l6Rsi8oIZzlM/zNm2IcVhGLrDlLTqTbDNi
+         OVXqr7oGletR9rbJEaV/Uvn6Fi8T3jtUHWPkgl5QyOD6uthPgilC8Ie4nBZPyaQQz9D1
+         Pg2dABj9ICiNnXj8cbL0ePkkZJbT6gw/sjA8sZMTbM/V3ImloajtV1lewT3SDSUZVj1a
+         /EV3X78EC9Utu3tXSlCiiAfdQXiy5SMTFPM1A5emSBgfwh1RqW1m9Al0JCo/ebHAMEAn
+         /NVQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:feedback-id:mime-version:subject:to:reply-to:from
+         :dkim-signature:message-id;
+        bh=kb3VKJq/Qr27JgnIhlZ2Ld+lMAb9xBowwdjvWL1le2g=;
+        b=M1BP/8VLg7dEeUofjJyadCCbrb6CS2a8lS/YM1YYBdoamVo1pGvZ2NMaU4pkk2zOOL
+         S5vktwy1aIF5X/PzzPmGu/zMB8J+pvGB7B9D0SlzKs3TH1y1KZH0Wfisyu3JAgk4KrE1
+         mO5PWe7EtB6diU3UaDboYJcnLevoqA6xf2UK0b3C7LCTZqRRgwTa23YScC5/8zUW5hVc
+         cWCdjfhpfRTEpQB5hjn2dEsDzj1Iu7nJoOOyfUkSs2Fb9YOutFnJuRuP2RkhraaKjb3T
+         0XygwNcFdjnqOynK7K6aUSC+5GqVIixIzAIeYyKNj1a0RJhG9SJJMtpdSZBdz6JxDjSh
+         Ajaw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@indeed.com header.s=default header.b=oW+Lz8Vc;
+       spf=pass (google.com: domain of indeedapply@indeed.com designates 198.58.75.65 as permitted sender) smtp.mailfrom=indeedapply@indeed.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=indeed.com
+Return-Path: <indeedapply@indeed.com>
+Received: from mail65.indeed.com (mail65.indeed.com. [198.58.75.65])
+        by mx.google.com with ESMTPS id m20si916079otf.147.2020.07.23.00.10.53
+        for <nwoods431@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2020 00:10:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of indeedapply@indeed.com designates 198.58.75.65 as permitted sender) client-ip=198.58.75.65;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@indeed.com header.s=default header.b=oW+Lz8Vc;
+       spf=pass (google.com: domain of indeedapply@indeed.com designates 198.58.75.65 as permitted sender) smtp.mailfrom=indeedapply@indeed.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=indeed.com
+Message-ID: <5f1937fd.1c69fb81.424e7.8bacSMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: 1edt85d0n8b2v800@indeed.com
+Received: from post.postmaster-highpriority.oqrd8rxcm00e90sjxpcc3fble9d0wj5f2x (aus-smtp3.indeed.net [10.1.3.212])
+	by mail65.indeed.com (Postfix) with ESMTP id 4BC3QP0mrdzKM6qv
+	for <nwoods431@gmail.com>; Thu, 23 Jul 2020 02:10:53 -0500 (CDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=indeed.com;
+	s=default; t=1595488253;
+	bh=gkay7DfvdY4vOSKfGzTt6+GnytylYVsKXU98a0xjo68=;
+	h=From:Reply-To:To:Subject:Date;
+	b=oW+Lz8VcpDiOcrFeGsYNI30NTTxh5+HcojvfPAAQ9CY05J4YcGY8wGic16w1RLU8L
+	 acRXoJmPT8Wt6V7/EICiLYrF1GKw6oG9HTLaOyyIf8Iwhz766IODVGlzuf3EO9MWnj
+	 4NQp5b47iNYjGpg/1OKnqc87e41TggZSAouEDQ98=
+From: Indeed Apply <indeedapply@indeed.com>
+Reply-To: do-not-reply@indeed.com
+To: nwoods431@gmail.com
+Subject: 115927 is the verification code to apply for: Sales Assistant
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_33767817_1932634406.1595488253074"
+Feedback-ID: INDEEDAPPLY_EMAIL_VERIFICATION:IndeedApplyWebapp:Indeed
+X-Indeed-FBL: :2:23faa552676da7603f58db691807c1523d48cffac741d90e
+X-Indeed-Client-App: IndeedApplyWebapp
+X-Indeed-Content-Type: INDEEDAPPLY_EMAIL_VERIFICATION
+X-Indeed-TK: 1edt85d0n8b2v800
+Date: Thu, 23 Jul 2020 02:10:53 -0500 (CDT)
+
+------=_Part_33767817_1932634406.1595488253074
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Use this code to continue applying for Sales Assistant
+115927
+
+
+
+
+If you didn't apply to this job, please visit https://support.indeed.com/hc=
+/en-au/articles/210417086
+
+
+
+=C2=A9 2019 Indeed, Inc.
+Indeed Ireland Operations Limited, 124 St. Stephen&#39;s Green, Dublin 2, I=
+reland
+
+
+Privacy Policy : http://au.indeed.com/legal#privacy
+Terms : http://au.indeed.com/legal#tos
+Help : https://indeed.zendesk.com/hc/en-au
+------=_Part_33767817_1932634406.1595488253074
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3Dutf-8" /><meta name=3D"viewport" content=3D"width=3Ddevice-wid=
+th, initial-scale=3D1.0" /></head><body  style=3D"margin:0; padding:0; -web=
+kit-text-size-adjust:100%; -ms-text-size-adjust:100%;"><img src=3D"https://=
+subscriptions.indeed.com/imgping?messageId=3D1edt85d0n8b2v800%40indeed.com&=
+tk=3D1edt85d0n8b2v800&clientApp=3DIndeedApplyWebapp&clientAppInstance=3DNot=
+ificationsPublicationServiceDaemon&clientTk=3D1edt83rrn3a35000&contentType=
+=3DINDEEDAPPLY_EMAIL_VERIFICATION&type=3DpostOpen&token=3DCkD_ylpoSeHKW4e9l=
+PB_4qOgtOZDUzrA4Hq5H-18HOmwAZTJo3JKU5i1dRkd7eBe-nTN3Jo5ZWMCl5hvFB_SEwUNEiAC=
+2M97M1I8JPvqmIQiRdwT96Hxc-JWaKib2mNdZCj96BoQSVa4hOZ8PkbBsbbHnTYAlQ%3D%3D" h=
+eight=3D"1" width=3D"1"><table style=3D"border-spacing:0px;width:100%;"><tr=
+><td style=3D"padding-left:10em;"><a href=3D"https://www.indeed.com" target=
+=3D"_blank" style=3D"text-decoration:none;"><img src=3D"http://tophat-cms-p=
+rod.s3.amazonaws.com/wp-content/uploads/2016/02/18221139/logo9.png" height=
+=3D"32" width=3D"124" border=3D"0" style=3D"vertical-align:top; height: 32p=
+x; width: 124px; font:30px Helvetica, Arial, sans-serif; color:#2164f3;" al=
+t=3D"indeed" /></a></td></tr><tr><td style=3D"padding-left:10em;"><p style=
+=3D"font-size:1.2em; font-family: Arial, Helvetica, sans-serif; color:#0000=
+00;"> Use this code to continue applying for Sales Assistant</p></td></tr><=
+tr><td style=3D"padding-left:10em;padding-bottom:5em;"><p style=3D"font-siz=
+e:2.5em; font-weight:bold;margin:0; font-family: Arial, Helvetica, sans-ser=
+if; color:#000000;">115927</p></td></tr><tr bgcolor=3D"#f3f3f3"><td style=
+=3D"padding-left:10em; padding-top:1.5em;padding-bottom:1.5em;"><p style=3D=
+"font-size:1.5em; padding:0;font-family: Arial, Helvetica, sans-serif; colo=
+r:#000000;">If you didn't apply for this job, please <a href=3D"https://sup=
+port.indeed.com/hc/en-au/articles/210417086" target=3D"_blank">contact us</=
+a>.</p></td></tr><tr><td style=3D"padding-left:10em; padding-top:1.5em;padd=
+ing-bottom:1.5em;"><p style=3D"font-size:0.9em;margin:0; padding:0;font-fam=
+ily: Arial, Helvetica, sans-serif;color:#6F6E6E;">&copy; 2019 Indeed, Inc.<=
+/p><p style=3D"font-size:0.9em; margin:0;padding:0;font-family: Arial, Helv=
+etica, sans-serif;color:#6F6E6E;">Indeed Ireland Operations Limited, 124 St=
+. Stephen&#39;s Green, Dublin 2, Ireland</p></td></tr><tr><td style=3D"padd=
+ing-left:10em;color:#8E8E8E" ><a href=3D"http://au.indeed.com/legal#privacy=
+" target=3D"_blank" style=3D"font-size:0.9em; margin:0;padding:0;font-famil=
+y: Arial, Helvetica, sans-serif;color:#085ff7;">Privacy Policy</a> &nbsp;|&=
+nbsp;<a href=3D"http://au.indeed.com/legal#tos" target=3D"_blank" style=3D"=
+font-size:0.9em; margin:0;padding:0;font-family: Arial, Helvetica, sans-ser=
+if;color:#085ff7;">Terms</a> &nbsp;|&nbsp;<a href=3D"https://indeed.zendesk=
+.com/hc/en-au" target=3D"_blank" style=3D"font-size:0.9em; margin:0;padding=
+:0;font-family: Arial, Helvetica, sans-serif;color:#085ff7;">Help</a></td><=
+/tr></table></body></html>
+------=_Part_33767817_1932634406.1595488253074--

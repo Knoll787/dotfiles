@@ -1,0 +1,222 @@
+Delivered-To: nwoods431@gmail.com
+Received: by 2002:ab3:5f94:0:0:0:0:0 with SMTP id w20csp106176ltc;
+        Mon, 27 Jul 2020 18:13:03 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJw5EVW5mGRCRnhJupN0yLxB7cY7AtqMOBShdaz0zuwQIPTs/PwKQPpmR/9lQh6gmz+r3N29
+X-Received: by 2002:a17:906:1b0e:: with SMTP id o14mr8736500ejg.472.1595898782998;
+        Mon, 27 Jul 2020 18:13:02 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1595898782; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XnfWTJIh4mkLo+mkR93M+YkQm3A/4wK5HGyZkF8sdwjHssaXAbcByhTCWEH6XLjqh0
+         BX1pKHxVRcuhkHnXUG/HPQ1mHXNcZ60X1BwtVKtaeyL7w8p9n6FeLZJUy1JPMhtmJRp9
+         WUCzhahECZV1dToECcwGDKUaoIr1qqrjV9i2U+fhZ4SchKvFWSouHk19aiWFXM+MxHuf
+         L94gAdNm19ooJu86uFueU7G4menrp5vx6ULDSWV2jvWxBk7JLpQHPw5i/vxKVchcDQD0
+         Nv8D3cJSn6eRsMrNnnw+6XAS8YTd6QRK0m/CAKn50IM/uTms9HzdTtdEI2Muh2DBz5gm
+         5ZNQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=subject:message-id:to:reply-to:mime-version:from:date
+         :content-transfer-encoding:dkim-signature:dkim-signature;
+        bh=FGxpxgamA8c0Eay2bQ6oNckgFLg3XvwJBYYIVG12Pyk=;
+        b=vY7og5hy90CjmBrDnOjaJf8hM3/KByDHvo27AnmJvP4wkNlpmqodZ/r5aw2HFRjD++
+         ISnZmi7MkEnNxrn10/8bPp0AAKlwoMKrpEQDMbfWFYb6LJ2WF8ZkPFIaIavrX1B4Bnpr
+         3UuUHZwYIR9QJ8YI92lfJ7YSRiLEXB4WQLG4r+liYJbX7AYd2FyTNFsTpPKFvfjZZmK6
+         nImKxCs5Ib0LLZK5I2aN+NRXbsPwx2Ib4ODB4sTosoU+IKr/YPC5oJzpY25RyhYnlqK8
+         ts+CIRtNoLPt3EGIg3dlO3FjnwKbDYy5dKkAZ0/c+HQ9Y3SuJYSbHMZ2yX0JxvWjKQ3D
+         H84Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@pageuppeople.com header.s=s1 header.b=SCsUevsj;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=If3DEicV;
+       spf=pass (google.com: domain of bounces+2006858-c306-nwoods431=gmail.com@post.dc2.pageuppeople.com designates 167.89.38.80 as permitted sender) smtp.mailfrom="bounces+2006858-c306-nwoods431=gmail.com@post.dc2.pageuppeople.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=pageuppeople.com
+Return-Path: <bounces+2006858-c306-nwoods431=gmail.com@post.dc2.pageuppeople.com>
+Received: from o3.post.dc2.pageuppeople.com (o3.post.dc2.pageuppeople.com. [167.89.38.80])
+        by mx.google.com with ESMTPS id j13si6146524ejc.314.2020.07.27.18.13.02
+        for <nwoods431@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2020 18:13:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+2006858-c306-nwoods431=gmail.com@post.dc2.pageuppeople.com designates 167.89.38.80 as permitted sender) client-ip=167.89.38.80;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@pageuppeople.com header.s=s1 header.b=SCsUevsj;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=If3DEicV;
+       spf=pass (google.com: domain of bounces+2006858-c306-nwoods431=gmail.com@post.dc2.pageuppeople.com designates 167.89.38.80 as permitted sender) smtp.mailfrom="bounces+2006858-c306-nwoods431=gmail.com@post.dc2.pageuppeople.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=pageuppeople.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; 
+	d=pageuppeople.com; 
+	h=content-transfer-encoding:content-type:from:mime-version:reply-to:to:subject; 
+	s=s1; bh=FGxpxgamA8c0Eay2bQ6oNckgFLg3XvwJBYYIVG12Pyk=; b=SCsUevs
+	j7nZR/TuRHZCBUOyISqmHL1XQKBUgmUmpSO5/rggouSsESu0+ksdlKn9r5QioTdx
+	wVeBHa8Q12iJUCySDabVjlht7xEpEXFzcE/vUOOU2uk7HndztO2zOKRjLtNoN+qx
+	n5z1uQyaH7dks1yYn4QoTGwi1KvtXqYEiSCw=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; 
+	d=sendgrid.info; 
+	h=content-transfer-encoding:content-type:from:mime-version:reply-to:to:subject:x-feedback-id; 
+	s=smtpapi; bh=FGxpxgamA8c0Eay2bQ6oNckgFLg3XvwJBYYIVG12Pyk=; b=If
+	3DEicV/G0S/63StgHoXZBwDNGXhDODg7HK1yeB5D535uXFkKp4INZ/QjEhP8M4HV
+	rdZfS1gX58Ehzp0oG0KITkLQpN6veDkauzEYs7msPg9GAUfXUq4a2kEBntjpbkDA
+	NIRYPyvwXhUKU1Ks2w+W4gZ+z7n2pqVcYuWNcbyMo=
+Received: by filter1416p1mdw1.sendgrid.net with SMTP id filter1416p1mdw1-31221-5F1F7B9D-9
+        2020-07-28 01:13:01.359531698 +0000 UTC m=+6472.253814044
+Received: from MjAwNjg1OA (unknown)
+	by ismtpd0005p1hnd1.sendgrid.net (SG) with HTTP id NiskIChCQYm7n4l_Vu4YDQ
+	Tue, 28 Jul 2020 01:13:01.163 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 28 Jul 2020 01:13:01 +0000 (UTC)
+From: "Coles Careers" <noreply-265@mail.pageuppeople.com>
+Mime-Version: 1.0
+Reply-to: "Coles Careers" <noreply@colescareers.com.au>
+To: NWoods431@gmail.com
+Message-ID: <NiskIChCQYm7n4l_Vu4YDQ@ismtpd0005p1hnd1.sendgrid.net>
+Subject: Video Interview Invitation
+X-SMTPAPI: {  "filters" : { "bypass_list_management" : { "settings" : { "enable" : 1} }}}
+X-SG-EID: GdrFG3BWrpaiGG1YNUS5T7Wc7exImjqpO1I7kOgiMWxVA07+wnu5YSM5reN1jbbAbpbL1Nm85NnqHE
+ cJurCXszcZFYFX44/nECUibnhdmSMkXy+lKuK4A3voFZ3OBsHIJKh71i0fkK/gl18DBmkmr96IUaMB
+ PDHVfWRrrLKNZLjRQP8QtbOLmVdq64jSUoXb2A8Ib2hQhjsIkSFTpk8rbcuPMVBI8fIp0mK0XD1KW+
+ peQNiO8cnKuq5bCSNJznfM
+X-SG-ID: C6Jcf817RQPDm8wY53VW4SCvIHFbrOiAp+U9+bhL6fEoaEbnPASH2DyWYaSw0QwPUS1RA09FI/8sCE
+ DYlnWeL7VRg5izTIAt+3MrHVP2PGEQtPIwSdMu7uq2gpmFOXD4YLKpulOxJJhirWHh2G+2uFYVIcWO
+ iVsBukIemwOUBzXHzERU21jUyslOfAzoJsLucpp+ytx96pJTEU4E/pvlVGb1mOPfmNLn9fYtCeiUG/
+ EKTVLvIpiuPblCl7WvYeWKY5Ma9H4hR6AgBdDgHYcpqG/NXyqGMiI9lmsQucJ6Vyxyy7npLfaP5tv5
+ Iu7g02TyoDYVmiJa1Jg1KPQuEeT9MXDbYraLh85sDg2ycTwLt30=
+X-Feedback-ID: 2006858:komolMfV/WriaWYy4KqZQi6LdtRH4eTgwM/IsbHxkYw=:tESXjOHMtFoeVZeICU2woA==:SG
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8" /></head><body><!-- Template Backgroun=
+d start -->
+<table style=3D"table-layout: fixed;" width=3D"100%" cellspacing=3D"0" cell=
+padding=3D"0" align=3D"center" bgcolor=3D"#ececec">
+<tbody>
+<tr>
+<td align=3D"center"><!-- Template Container start -->
+<p>=C2=A0</p>
+<table class=3D"devicewidth" style=3D"max-width: 620px; width: 100%;" borde=
+r=3D"0" width=3D"620" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+bgcolor=3D"#ececec">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top"><!-- Header start -->
+<table style=3D"text-align: center; font-family: Arial,Helvetica,sans-serif=
+;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"background-repeat: repeat-x; background-size: contain;" align=
+=3D"left" bgcolor=3D"#e9172c">
+<p><img src=3D"https://publicstorage.dc2.pageuppeople.com/265/ProviderAsset=
+/d0d559d4-15ac-4dd6-a2fc-e30b6b56ce06.png" alt=3D"" width=3D"350" height=3D=
+"48" align=3D"" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff">
+<table style=3D"text-align: left; font-family: Arial,Helvetica,sans-serif;"=
+ border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"color: #444444; padding: 20px; font-size: 13px; font-family: A=
+rial,Helvetica,sans-serif;">
+<p>Hi Noel,=C2=A0</p>
+<p>Congratulations! We=E2=80=99ve reviewed your application and are pleased=
+ to inform you that your application is progressing to the next stage of ou=
+r recruitment process.<br /><strong><br />What do I do next?</strong></p>
+<p>You=E2=80=99re now invited to complete a Video Interview for=C2=A0NEW ST=
+ORE - Store Team Member - Huntlee (EXTERNAL).</p>
+<p>You have until <23:59pm> on 4 Aug 2020 to complete the Video Interview.<=
+/p>
+<p>Please set aside time to complete this interview in a quiet place withou=
+t distractions. This should take no longer than 20 minutes to compete. To p=
+repare for the Video Interview you might like to watch this short two minut=
+e hints and tips <a href=3D"https://links.dc2.pageuppeople.com/ss/c/KEc5jQz=
+jZA_4fxftE-_CZTVe9zkmQC3EeC5-L5UFBwbReAndwj2YH5Kbw258TzqD/33u/2q2aNMOETLaoJ=
+00tv87ckg/h0/L1pwnyXVpXXP9ySbWtvmkPuHq7FeDXkjCHsrHtL26iE" target=3D"_blank"=
+ rel=3D"noopener">video</a><strong>.</strong>=C2=A0</p>
+<p><strong>Do you require technical help to complete your video interview?<=
+/strong></p>
+<p>Please follow the steps below to start your =C2=A0Video Interview:<br />=
+<strong>Step 1:</strong> Login to your <a href=3D"https://links.dc2.pageupp=
+eople.com/ss/c/N75O0MEYzMczsPcUAm4hUd2ciRO83sncGNNnUAce5Zt-wnvW_PAf5eEfne8F=
+hFarvcbyf_T2TetELgM6TAKL0K1Tfw0Hj1Ql81CzDBKa8SoVI3QY3oXxs6bVSf6PCdY4/33u/2q=
+2aNMOETLaoJ00tv87ckg/h1/0F5blu_9ObwFYijgoAukSQCmOWEW6zs9XoWqO1FESwE"><stron=
+g>Applicant Services Portal</strong></a> <br /><strong>Step 2:</strong> Cli=
+ck on 'Go to Video Interview'</p>
+<p><br />If you need assistance completing your Video Interview, please</p>
+<ul>
+<li>check the <a href=3D"https://links.dc2.pageuppeople.com/ss/c/ExO4_SXOgd=
+4h49txcR5kp7UW5wDX38N1L3SYVCVZIC195bNgHdBsLX0CnUQqlb8a/33u/2q2aNMOETLaoJ00t=
+v87ckg/h2/a0fl8HUF0Ojv8PfCflK_UFHWMs2Nwnu2KAQfhhAN6rw">Frequently Asked Que=
+stions</a> section on the Vieple website</li>
+<li>contact the Vieple Helpdesk by emailing <a href=3D"mailto:support@viepl=
+e.com">support@vieple.com</a></li>
+</ul>
+<p>=C2=A0</p>
+<p><strong>Congratulations again on making it to the Video Interview stage,=
+ and good luck with the next stage of the application process! </strong></p>
+<p>=C2=A0</p>
+<p><strong>Kind=C2=A0Regards,</strong><strong><br /></strong></p>
+<p><strong>Coles Recruitment Team</strong></p>
+<p>=C2=A0</p>
+<p><strong>To note<br /></strong></p>
+<p>Coles is an equal opportunity employer. If you=E2=80=99re unable to comp=
+lete the video interview (for cultural factors, you are a person with disab=
+ility who requires support, or you have other accessibility requirements), =
+please email our inclusive recruitment team at <a href=3D"mailto:InclusionR=
+ecruitment@coles.com.au">InclusionRecruitment@coles.com.au</a></p>
+<p>=C2=A0</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Score Bonus Section End --> <!-- divider -->
+<tr>
+<td style=3D"color: #142c52; font-family: sans-serif; padding: 10px; font-s=
+ize: larger;" align=3D"center" bgcolor=3D"#ffffff"><img src=3D"https://publ=
+icstorage.dc2.pageuppeople.com/265/ClientPublicFile/5a447c03-ff4b-42d5-b8bd=
+-5a1b5bc99c21.png" alt=3D"brands" width=3D"100%" /></td>
+</tr>
+<!-- divider end --> <!-- bottom section -->
+<tr>
+<td align=3D"center" bgcolor=3D"#e9172c"><!-- Social Media start -->
+<table class=3D"social" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" al=
+ign=3D"center">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 5px 10px 5px;"><a href=3D"https://links.dc2.page=
+uppeople.com/ss/c/U4FeNKIRdunJqUNYa2vwM4-XNmlzMBqy24oj2iBlonVNdEKbGEz988zsG=
+6CWflCC/33u/2q2aNMOETLaoJ00tv87ckg/h3/TDV1cwqgLccJeMyYNHoSwpofwIARDwH63stIz=
+3UpR3U"><img src=3D"http://static.pageuppeople.com/clients/SocialMedia/Flat=
+-Social-Icons-For-Clients-67.png" alt=3D"" width=3D"40" height=3D"40" /></a=
+></td>
+<td style=3D"padding: 10px 5px 10px 5px;"><a href=3D"https://links.dc2.page=
+uppeople.com/ss/c/U4FeNKIRdunJqUNYa2vwM1xO31dJCYCtXrVksP-BjauYVoqoDqlZ8DgGk=
+zm5mAwC/33u/2q2aNMOETLaoJ00tv87ckg/h4/uljPwG1SvNG6EcYwSSVGFeTPZyktHDsjuwslg=
+ZL3Beg"><img src=3D"http://static.pageuppeople.com/clients/SocialMedia/Flat=
+-Social-Icons-For-Clients-69.png" alt=3D"" width=3D"40" height=3D"40" /></a=
+></td>
+</tr>
+</tbody>
+</table>
+<!-- Social Media end --></td>
+</tr>
+<!-- Template Container end --></tbody>
+</table>
+<p><!-- Template Background end --></p>
+<p>=C2=A0</p>
+</td>
+</tr>
+<!-- Template Container end --></tbody>
+</table>
+<!-- Template Background end -->
+<p>=C2=A0</p>
+<!-- Template Background end -->
+<img src=3D"https://links.dc2.pageuppeople.com/ss/o/yeuCz6FKFlpO5qOW5QXBQQ/=
+33u/2q2aNMOETLaoJ00tv87ckg/ho.gif" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"/>
+</body></html>
