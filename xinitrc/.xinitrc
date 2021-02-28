@@ -1,6 +1,6 @@
 #!/bin/sh
 numlockx &
-~/pictures/backgrounds/.fehbg &
+~/pictures/.fehbg &
 ~/.config/dwm/status.sh &
 sxhkd &
 picom  --no-fading-openclose & 

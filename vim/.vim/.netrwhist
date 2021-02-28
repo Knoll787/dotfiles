@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/nwoods/dotfiles/.git'
+let g:netrw_dirhist_9='/home/nwoods/dotfiles'
+let g:netrw_dirhist_8='/home/nwoods/dotfiles/.git'
+let g:netrw_dirhist_7='/home/nwoods/dotfiles/zsh'
 let g:netrw_dirhist_6='/home/nwoods/test'
 let g:netrw_dirhist_5='/home/nwoods/documents/courses/engg1003/workshop8'
 let g:netrw_dirhist_4='/home/nwoods/documents/courses/engg1003/workshop9'
 let g:netrw_dirhist_3='/home/nwoods/.config/zathura'
 let g:netrw_dirhist_2='/home/nwoods/.npm'
 let g:netrw_dirhist_1='/home/nwoods/eng1003'
-let g:netrw_dirhist_0='/home/nwoods/.vim'
-let g:netrw_dirhist_9='/home/nwoods/.config/dwm'
-let g:netrw_dirhist_8='/home/nwoods/seng1110-project/src'
-let g:netrw_dirhist_7='/home/nwoods/engg1003-project1/src'

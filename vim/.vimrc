@@ -5,13 +5,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin()
 
 Plug 'kien/ctrlp.vim'
-Plug 'dracula/vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 call plug#end()
 
 set termguicolors
-colorscheme dracula 
 highlight Comment guifg=#80a0ff 
+colorscheme onehalfdark
+set background=dark
 set number relativenumber
 set clipboard=unnamedplus
 set linebreak

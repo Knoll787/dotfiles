@@ -1,5 +1,4 @@
-export ZSH="/home/nwoods/dotfiles/oh-my-zsh"
-export FZF_BASE="/home/nwoods/dotfiles/oh-my-zsh/plugins/fzf"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Theme
 export TERM=xterm-256color
@@ -24,7 +23,9 @@ export EDITOR="/usr/bin/vim"
 alias shutdown='shutdown -h now'
 alias notes='brave ~/documents/notes/notes_html/index.html'
 alias brightness='sudoedit /sys/class/backlight/intel_backlight/brightness'
+alias dock='./dotfiles/arandr/dock.sh'
 alias open='xdg-open'
+alias ls='ls --color -h --group-directories-first'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
