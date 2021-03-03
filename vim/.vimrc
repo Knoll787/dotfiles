@@ -18,5 +18,9 @@ set clipboard=unnamedplus
 set linebreak
 set spelllang=en_au spellfile=~/.vim/spell.en.utf-8.add
 set ai
-set tabstop=2
 set encoding=utf-8
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set textwidth=80
+set noexpandtab
