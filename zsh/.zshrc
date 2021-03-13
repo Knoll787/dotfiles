@@ -23,7 +23,7 @@ export EDITOR="/usr/bin/vim"
 alias shutdown='shutdown -h now'
 alias notes='brave ~/documents/notes/notes_html/index.html'
 alias brightness='sudoedit /sys/class/backlight/intel_backlight/brightness'
-alias dock='./dotfiles/arandr/dock.sh'
+alias dock='./dotfiles/arandr/dock.sh && ./pictures/.fehbg'
 alias open='xdg-open'
 alias ls='ls --color -h --group-directories-first'
 
