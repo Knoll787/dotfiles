@@ -3,9 +3,7 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <limits.h>
-#include <pwd.h>
-#include <stdarg.h>
-#include <stdio.h>
+#include <pwd.h> #include <stdarg.h> #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <signal.h>

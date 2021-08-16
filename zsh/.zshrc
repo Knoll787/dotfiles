@@ -26,6 +26,13 @@ alias brightness='sudoedit /sys/class/backlight/intel_backlight/brightness'
 alias dock='./dotfiles/arandr/dock.sh && ./pictures/.fehbg'
 alias open='xdg-open'
 alias ls='ls --color -h --group-directories-first'
+alias ltspice="wine /home/nwoods/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx86.exe"
+alias vi="vim"
+alias zathura="devour zathura"
+alias evince="devour evince"
+alias chromium="devour chromium"
+alias feh="devour feh"
+alias feh="devour wine"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

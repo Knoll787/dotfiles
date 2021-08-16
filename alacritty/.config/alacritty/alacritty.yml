@@ -1,8 +1,8 @@
 font:
-  size: 8 
+  size: 7.0 
   normal:
     family: Liberation Mono
-    style: Medium
+    style: Medium 
   bold:
     family: Liberation Mono
   italic:

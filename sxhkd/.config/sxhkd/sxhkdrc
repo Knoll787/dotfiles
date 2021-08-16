@@ -6,7 +6,7 @@ alt + o; {m}
  {st mutt}
  
 alt + o; {t} 
-  {chromium https://ticktick.com/webapp/#q/all/today}
+  {chromium https://todoist.com/app/today}
 
 alt + o; {c}
   {chromium https://calendar.google.com/calendar/r}
