@@ -7,6 +7,7 @@ call plug#begin()
 	Plug 'sonph/onehalf', { 'rtp': 'vim' }
 	Plug 'sheerun/vim-polyglot'
 	Plug 'itchyny/lightline.vim'
+	Plug 'pulkomandy/c.vim'
 call plug#end()
 
 
@@ -41,8 +42,8 @@ let s:compiler_for_filetype = {
       \}
 
 let s:makeprg_for_filetype = {
-      \ "c"        : "make clean && clear && ./a.out",
-      \ "cpp"        : "make clean && clear && ./a.out",
+      \ "c"        : "make && clear && ./a.out",
+      \ "cpp"        : "make && clear && ./a.out",
       \}
 
 let &shellpipe="2> >(tee %s)"
