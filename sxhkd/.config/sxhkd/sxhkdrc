@@ -1,17 +1,17 @@
 # Quicklaunch applications
 alt + o; {i,z}
-	{chromium, zathura} 
+	{chrome, zathura} 
 
 alt + o; {m} 
  {st mutt}
  
 alt + o; {t} 
-  {chromium https://todoist.com/app/today}
+  {chrome https://todoist.com/app/today}
 
 alt + o; {c}
-  {chromium https://calendar.google.com/calendar/r}
+  {chrome https://calendar.google.com/calendar/r}
 alt + o; {n}
-  {chromium https://publish.obsidian.md/noelwoods}
+  {chrome https://publish.obsidian.md/noelwoods}
 ctrl + alt + l;
   {slock}
 

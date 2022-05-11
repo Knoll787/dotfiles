@@ -3,12 +3,14 @@ filetype off
 
 "" --- Plugins --- 
 call plug#begin()
-	Plug 'kien/ctrlp.vim'
-	Plug 'sonph/onehalf', { 'rtp': 'vim' }
-	Plug 'sheerun/vim-polyglot'
-	Plug 'itchyny/lightline.vim'
-	Plug 'pulkomandy/c.vim'
+	Plug 'kien/ctrlp.vim' " Fuzzy Finder
+	Plug 'sonph/onehalf', { 'rtp': 'vim' } " Color Scheme
+	Plug 'sheerun/vim-polyglot' " Syntax Highlighting
+	Plug 'itchyny/lightline.vim' " Status Bar
 call plug#end()
+"" --------------- 
+
+
 
 
 "" --- General Settings --- 
@@ -23,18 +25,24 @@ set shiftwidth=4
 set softtabstop=4
 set noexpandtab
 set wildmenu
+"" ------------------------ 
+
+
+
 
 "" --- Color Scheme ---
+syntax on
 set termguicolors
-colorscheme onehalfdark
+colorscheme torte
 set background=dark
 set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ }
+let g:airline_theme='onehalfdark'
+"" --------------------
 
 
-"" --- Running Code ---""Running Code
+
+
+"" --- Running Code --- 
 let s:compiler_for_filetype = {
       \ "c,cpp"    : "gcc",
       \ "tex"      : "pdflatex",
@@ -61,3 +69,4 @@ function! CompileAndRun() abort
 endfunction
 
 nnoremap <F9> :call CompileAndRun()<CR>
+"" ---------------------

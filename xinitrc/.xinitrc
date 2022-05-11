@@ -9,5 +9,5 @@ wmname LG3D &
 blueman-applet &
 xsetwacom set 10  MapToOutput DP-2-1 &
 
+exec dwm 
 
-exec dwm
